@@ -27,7 +27,9 @@ Mastodon is a decentralized, open-source social media platform. Anyone can use M
 
     Mastodon instances are individual communities, each with its own rules and culture. 
     These communities can be run by individuals, groups, or organizations. 
-    They each have their own set of rules regarding how users can sign up, as well as their own moderation policies. 
+    
+    They each have their own set of rules regarding how users can sign up, 
+    as well as their own moderation policies. 
 
 <br>
 
