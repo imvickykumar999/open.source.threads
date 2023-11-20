@@ -13,6 +13,34 @@
 
 <br>
 
+## `Threads` *v/s* `Mastodon`
+
+    Threads is an app from Instagram that supports the ActivityPub protocol. 
+
+Mastodon is a Twitter rival that also uses the ActivityPub protocol. 
+    
+    Threads is a way to read news and blogs. 
+    It doesn't have hashtags. 
+    
+    Mastodon has an easy-to-use interface. 
+    It has 1.8 million monthly active users and 2.34 million registered users. 
+    
+Threads and Mastodon are expected to be interoperable in the future. 
+    
+    This means that users will be able to follow each other and exchange messages. 
+    
+However, the operator of the Mastodon server will decide whether to allow communication with Threads. 
+
+<br>
+
+    Threads has some disadvantages, including: 
+    
+- Debugging and maintenance: Code becomes difficult to debug and maintain with more threads.
+- System load: Thread creation puts a load on the system in terms of memory and CPU resources.
+- Exception handling: Any unhandled exceptions can result in the program crashing.
+
+<br>
+
 What Is a Mastodon Instance? 
 -----------
 
