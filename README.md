@@ -1,5 +1,11 @@
 # [`open`.`source`.`threads`](https://github.com/mastodon/mastodon)
 
+    Application : https://mastodon.social/settings/applications/4958998
+    
+    Hosting : https://www.socialoomph.com/mastodonapp/add/
+
+<br>
+
 Why do I need a Mastodon application?
 ------------
 
