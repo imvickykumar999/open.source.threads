@@ -1,8 +1,43 @@
-# [`open`.`source`.`threads`](https://github.com/mastodon/mastodon)
+# [`open`.`source`.`threads`](https://imvickykumar999.github.io/open.source.threads/)
 
-    Application : https://mastodon.social/settings/applications/4958998
+**Mastodon** *is* **a** ***decentralized*** *open source* **social media platform.**
+
+    MASTODON Repo:
+        https://github.com/mastodon/mastodon
     
-    Hosting : https://www.socialoomph.com/mastodonapp/add/
+    Application:
+        https://mastodon.social/settings/applications/4958998
+    
+    Hosting:
+        https://www.socialoomph.com/mastodonapp/add/
+
+<br>
+
+What Is a Mastodon Instance? 
+-----------
+
+An instance is just another name for a server. Each server is running a version of the Mastodon software—an instance of that software.
+
+<br>
+
+    In Mastodon, an instance is a server that runs a version of the Mastodon software. 
+    Instances are also called servers. 
+
+Mastodon is a decentralized, open-source social media platform. Anyone can use Mastodon code to create a server for free. 
+
+    Mastodon instances are individual communities, each with its own rules and culture. 
+    These communities can be run by individuals, groups, or organizations. 
+    They each have their own set of rules regarding how users can sign up, as well as their own moderation policies. 
+
+<br>
+
+Mastodon.social is considered the flagship instance and has more than 41,700 users. 
+
+    Some other instances include: 
+
+- [c.im](https://c.im/home)
+- [Social.wxcafe.net](https://social.wxcafe.net/about)
+- [Octodon.social](https://octodon.social/about)
 
 <br>
 
