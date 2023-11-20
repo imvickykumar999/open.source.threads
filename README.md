@@ -40,7 +40,9 @@ Mastodon.social is considered the flagship instance and has more than 41,700 use
 - [c.im](https://c.im/home)
 - [Social.wxcafe.net](https://social.wxcafe.net/about)
 - [Octodon.social](https://octodon.social/about)
-
+- ...
+- [More Servers](https://joinmastodon.org/servers)
+  
 <br>
 
 Why do I need a Mastodon application?
