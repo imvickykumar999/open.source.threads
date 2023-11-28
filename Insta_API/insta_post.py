@@ -24,7 +24,7 @@ except:
 user = 'vix.bot'
 passwd = getpass.getpass('\nEnter Instagram Password : ')
 
-API_Key = getpass.getpass('Enter API key : ')
+API_Key = getpass.getpass('Enter OpenAI API Key : ')
 openai.api_key = API_Key
 
 print('\nUploading ...')
