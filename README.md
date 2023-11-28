@@ -7,9 +7,12 @@
     
     Application:
         https://mastodon.social/settings/applications/4958998
-    
-    Hosting:
-        https://www.socialoomph.com/mastodonapp/add/
+
+<br>
+
+>## `Preferring Mastodon` ***over*** `Twitter or Threads`
+>
+>![image](https://github.com/imvickykumar999/open.source.threads/assets/50515418/ebee84ad-b85c-424c-a982-a8bb90df0712)
 
 <br>
 
