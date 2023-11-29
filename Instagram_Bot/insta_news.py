@@ -4,6 +4,8 @@
 
 from instagrapi import Client
 import requests, random, os
+from PIL import ImageDraw
+from PIL import ImageFont
 from PIL import Image
 
 try: os.mkdir('images')
@@ -21,7 +23,7 @@ req = requests.get(gets)
 box = req.json()['articles']
 cap = []
 
-def make_square(im, min_size=256, fill_color=(255,255,255,0)):
+def make_square(im, j, min_size=256, fill_color=(255,255,255,0)):
     img = Image.open(im)
     x, y = img.size
 
@@ -30,6 +32,11 @@ def make_square(im, min_size=256, fill_color=(255,255,255,0)):
 
     new_im = new_im.convert("RGB")
     new_im.paste(img, (int((size - x) / 2), int((size - y) / 2)))
+
+    I1 = ImageDraw.Draw(new_im)
+    myFont = ImageFont.truetype("arial.ttf", 30)
+
+    I1.text((15, 15), f'[ {j+1} ]', font=myFont, fill=(0, 0, 0))
     new_im.save(im)
 
 for j, i in enumerate(box):
@@ -40,7 +47,7 @@ for j, i in enumerate(box):
 
     path = f'images/{j}.jpg'
     open(path, 'wb').write(r.content)
-    make_square(path)
+    make_square(path, j)
 
 bot = Client()
 user = 'vix.bot'
