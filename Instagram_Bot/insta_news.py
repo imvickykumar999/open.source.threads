@@ -1,4 +1,7 @@
 
+# import sys
+# sys.setrecursionlimit(50000)
+
 from instagrapi import Client
 import requests, random, os
 from PIL import Image

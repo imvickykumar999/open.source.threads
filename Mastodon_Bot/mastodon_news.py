@@ -1,10 +1,8 @@
 
-# https://www.pythonanywhere.com/user/autouploadoninsta/files/home/autouploadoninsta/flask_app.py?edit
-
 import requests, random, json
 
 news_api = input('\nEnter news_api Key : ')
-access_token = input('\nEnter access_token Key : ')
+access_token = input('\nEnter Mastodon Key : ')
 
 source = ['bbc-news', 'cnn', 'the-verge', 'time', 'the-wall-street-journal']
 source = random.choice(source)
@@ -19,13 +17,14 @@ for i in box:
     if i['description'] == None:
         i['description'] = 'Read More'
 
-    tweet = f'''
-    ➡️ {i['title']}
+    tweet = f'''➡️ {i['title']}
+
+    {i['urlToImage']}
 
     {i['description']}
 
     {i['url']}
-    '''
+'''
 
     url = 'https://mastodon.social/api/v1/statuses'
     auth = {'Authorization': f'Bearer {access_token}'}
