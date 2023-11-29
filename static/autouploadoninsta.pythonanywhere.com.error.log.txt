@@ -1,0 +1,102 @@
+2023-11-29 06:49:48,409: https://i.instagram.com/api/v1/launcher/sync/
+2023-11-29 06:49:48,680: vix.bot [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T Dev)
+2023-11-29 06:49:48,853: https://i.instagram.com/api/v1/accounts/login/
+2023-11-29 06:49:49,450: vix.bot [400] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T Dev)
+2023-11-29 06:49:49,451: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 360, in _send_private_request
+    response.raise_for_status()
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://i.instagram.com/api/v1/accounts/login/
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/autouploadoninsta/./flask_app.py", line 21, in index
+    bot.login('vix.bot', '***************')
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/auth.py", line 441, in login
+    logged = self.private_request("accounts/login/", data, login=True)
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 542, in private_request
+    raise e
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 527, in private_request
+    self._send_private_request(endpoint, **kwargs)
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 447, in _send_private_request
+    raise ProxyAddressIsBlocked(**last_json)
+instagrapi.exceptions.ProxyAddressIsBlocked: Instagram has blocked your IP address, use a quality proxy provider (not free, not shared)
+2023-11-29 06:49:53,589: https://i.instagram.com/api/v1/launcher/sync/
+2023-11-29 06:49:53,805: vix.bot [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T Dev)
+2023-11-29 06:49:53,928: https://i.instagram.com/api/v1/accounts/login/
+2023-11-29 06:49:54,449: vix.bot [400] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T Dev)
+2023-11-29 06:49:54,449: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 360, in _send_private_request
+    response.raise_for_status()
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://i.instagram.com/api/v1/accounts/login/
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/autouploadoninsta/./flask_app.py", line 21, in index
+    bot.login('vix.bot', '***************')
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/auth.py", line 441, in login
+    logged = self.private_request("accounts/login/", data, login=True)
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 542, in private_request
+    raise e
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 527, in private_request
+    self._send_private_request(endpoint, **kwargs)
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 447, in _send_private_request
+    raise ProxyAddressIsBlocked(**last_json)
+instagrapi.exceptions.ProxyAddressIsBlocked: Instagram has blocked your IP address, use a quality proxy provider (not free, not shared)
+2023-11-29 06:50:17,544: https://i.instagram.com/api/v1/launcher/sync/
+2023-11-29 06:50:17,753: vix.bot [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T Dev)
+2023-11-29 06:50:17,841: https://i.instagram.com/api/v1/accounts/login/
+2023-11-29 06:50:18,496: vix.bot [400] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T Dev)
+2023-11-29 06:50:18,497: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 360, in _send_private_request
+    response.raise_for_status()
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://i.instagram.com/api/v1/accounts/login/
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/autouploadoninsta/./flask_app.py", line 21, in index
+    bot.login('vix.bot', '***************')
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/auth.py", line 441, in login
+    logged = self.private_request("accounts/login/", data, login=True)
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 542, in private_request
+    raise e
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 527, in private_request
+    self._send_private_request(endpoint, **kwargs)
+  File "/home/autouploadoninsta/.local/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 447, in _send_private_request
+    raise ProxyAddressIsBlocked(**last_json)
+instagrapi.exceptions.ProxyAddressIsBlocked: Instagram has blocked your IP address, use a quality proxy provider (not free, not shared)

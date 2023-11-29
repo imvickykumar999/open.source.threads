@@ -1,20 +1,12 @@
 
 # https://platform.openai.com/account/api-keys
 
-import getpass, openai, shutil
-import requests, time, os, random
-from instabot import Bot
+import requests, time, random
 from PIL import Image
+import openai, os
 
-try:
-    shutil.rmtree('config')
-except:
-    pass
-
-try:
-    os.mkdir('to_upload')
-except:
-    pass
+# from instabot import Bot
+from instagrapi import Client
 
 try:
     os.mkdir('images')
@@ -22,9 +14,9 @@ except:
     pass
 
 user = 'vix.bot'
-passwd = getpass.getpass('\nEnter Instagram Password : ')
+passwd = input('\nEnter Instagram Password : ')
 
-API_Key = getpass.getpass('Enter OpenAI API Key : ')
+API_Key = input('Enter OpenAI API Key : ')
 openai.api_key = API_Key
 
 print('\nUploading ...')
@@ -68,7 +60,8 @@ for i in range(n):
     r = requests.get(img, allow_redirects=True)
     open(f'images/{file}.jpg', 'wb').write(r.content)
 
-bot = Bot()
+bot = Client()
+# bot = Bot()
 bot.login(username = user, password = passwd)
 
 def make_square(im, min_size=256, fill_color=(255,255,255,0)):
@@ -82,10 +75,14 @@ def make_square(im, min_size=256, fill_color=(255,255,255,0)):
 
 path = f'images/{file}.jpg'
 test_image = Image.open(path)
-new_image = make_square(test_image)
 
-path = f'to_upload/{file}.jpg'
+new_image = make_square(test_image)
 new_image.save(path)
 
-cap = f'🔥 This is Trending Video-Game image of "{topic}", created by OpenAI API and uploaded at {file} (unix time) using InstaBot package written in Python Language. #imvickykumar999 @minecraft 💡' 
-bot.upload_photo(path, caption = cap)
+cap = f'🔥 This is Trending Video-Game image of "{topic}", created by OpenAI API and uploaded at {file} (unix time) using "instagrapi" package written in Python Language. #imvickykumar999 @minecraft 💡' 
+album_path = [path, "images/1701157530.2756922.jpg", "images/1701104587.4618087.jpg"]
+
+bot.album_upload(
+    album_path,
+    caption = cap
+)
