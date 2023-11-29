@@ -1,6 +1,17 @@
 
 # https://platform.openai.com/account/api-keys
 
+'''
+openai.error.RateLimitError: Rate limit exceeded for images per minute 
+in organization org-PL2jxjAPPRDL0KEqREmSg8Bw. 
+
+Limit: 5/1min. 
+Current: 8/1min. 
+
+Please visit https://help.openai.com/en/articles/6696591 
+to learn how to increase your rate limit.
+'''
+
 import requests, time, random
 from PIL import Image
 import openai, os
@@ -51,38 +62,38 @@ except:
 '''
     topic = random.choice(topics.split('\n')[2:-2]).split('. ')[1]
 
-n=1
+n=5
 image_resp = openai.Image.create(prompt=topic, n=n, size="512x512")
-file = time.time()
-
-for i in range(n):
-    img = list(image_resp['data'][i].values())[0]
-    r = requests.get(img, allow_redirects=True)
-    open(f'images/{file}.jpg', 'wb').write(r.content)
-
-bot = Client()
-# bot = Bot()
-bot.login(username = user, password = passwd)
 
 def make_square(im, min_size=256, fill_color=(255,255,255,0)):
-    x, y = im.size
+    img = Image.open(im)
+    x, y = img.size
+
     size = max(min_size, x, y)
     new_im = Image.new('RGB', (size, size), fill_color)
 
     new_im = new_im.convert("RGB")
-    new_im.paste(im, (int((size - x) / 2), int((size - y) / 2)))
-    return new_im
+    new_im.paste(img, (int((size - x) / 2), int((size - y) / 2)))
+    new_im.save(im)
+    
+for i in range(n):
+    file = time.time()
+    time.sleep(1)
 
-path = f'images/{file}.jpg'
-test_image = Image.open(path)
+    img = list(image_resp['data'][i].values())[0]
+    r = requests.get(img, allow_redirects=True)
 
-new_image = make_square(test_image)
-new_image.save(path)
+    path = f'images/{file}.jpg'
+    open(path, 'wb').write(r.content)
+    make_square(path)
 
-cap = f'🔥 This is Trending Video-Game image of "{topic}", created by OpenAI API and uploaded at {file} (unix time) using "instagrapi" package written in Python Language. #imvickykumar999 @minecraft 💡' 
-album_path = [path, "images/1701157530.2756922.jpg", "images/1701104587.4618087.jpg"]
+bot = Client()
+# bot = Bot()
+
+bot.login(username = user, password = passwd)
+album_path = ['images/'+i for i in os.listdir('images')]
 
 bot.album_upload(
     album_path,
-    caption = cap
+    caption = topics
 )
