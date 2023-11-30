@@ -1,4 +1,6 @@
 
+# https://subzeroid.github.io/instagrapi/usage-guide/story.html
+
 from instagrapi import Client
 from instagrapi.types import StoryMention, StoryMedia, StoryLink, StoryHashtag
 
