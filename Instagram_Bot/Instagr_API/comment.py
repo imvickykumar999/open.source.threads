@@ -10,8 +10,8 @@ USERNAME = 'vix.bot'
 PASSWORD = getpass.getpass('\nEnter Instagram Password : ')
 
 
-pid = 'C0O3JPZJ3UN'
-# pid = input('Enter Post ID : ')
+# pid = 'C0O3JPZJ3UN'
+pid = input('Enter Post ID : ')
 url = f'https://www.instagram.com/p/{pid}/'
 
 
@@ -64,7 +64,9 @@ instagrapi.exceptions.RateLimitError: Please wait a few minutes before you try a
 API rate limit
 --------------
 
-Every third-party application connected to Instagram's API has a restriction 
-on how many times it may access its data. Instagram has recently decreased 
-its API restriction from 5,000 to 200 requests per hour.
+Every third-party application connected to Instagram's API 
+has a restriction on how many times it may access its data. 
+
+Instagram has recently decreased its API restriction from 
+5,000 to 200 requests per hour.
 '''
