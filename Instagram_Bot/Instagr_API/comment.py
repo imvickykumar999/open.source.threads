@@ -2,16 +2,16 @@
 # https://subzeroid.github.io/instagrapi/usage-guide/comment.html
 
 from instagrapi import Client
-from pprint import pprint
 import getpass, json
 
 
-USERNAME = 'vix.bot'
+USERNAME = 'vicksbot2023'
+# USERNAME = input('Enter Username : ')
 PASSWORD = getpass.getpass('\nEnter Instagram Password : ')
 
 
-# pid = 'C0O3JPZJ3UN'
-pid = input('Enter Post ID : ')
+pid = 'ClwrpW1BB-R'
+# pid = input('Enter Post ID : ')
 url = f'https://www.instagram.com/p/{pid}/'
 
 
@@ -48,7 +48,7 @@ bulk_delete = []
 
 for i in comments_part:
     i = json.loads(i.json())
-    pprint(i['pk'], i['text'])
+    print(i['pk'], i['text'])
     bulk_delete.append(i['pk'])
 
 
