@@ -4,13 +4,14 @@
 from instagrapi import Client
 from instagrapi.types import StoryMention, StoryMedia, StoryLink, StoryHashtag
 
-user = 'vix.bot'
-passwd = input('\nEnter Instagram Password : ')
+USERNAME = 'vix.bot'
+PASSWORD = input('\nEnter Instagram Password : ')
+pid = 'Cyi5hY5yVy9'
 
 cl = Client()
-cl.login(user, passwd)
+cl.login(USERNAME, PASSWORD)
 
-media_pk = cl.media_pk_from_url('https://www.instagram.com/p/Cyi5hY5yVy9/')
+media_pk = cl.media_pk_from_url(f'https://www.instagram.com/p/{pid}/')
 media_path = cl.video_download(media_pk)
 
 imvickykumar999 = cl.user_info_by_username('imvickykumar999')
