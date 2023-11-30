@@ -10,7 +10,6 @@ cl.login(user, passwd)
 
 media_pk = cl.media_pk_from_url('https://www.instagram.com/p/Cyi5hY5yVy9/')
 media_path = cl.video_download(media_pk)
-print(media_path)
 
 imvickykumar999 = cl.user_info_by_username('imvickykumar999')
 hashtag = cl.hashtag_info('imvickykumar999')
