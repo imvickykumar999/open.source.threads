@@ -61,8 +61,8 @@ cl.comment_bulk_delete(media_id, bulk_delete)
     raise RateLimitError(**last_json)
 instagrapi.exceptions.RateLimitError: Please wait a few minutes before you try again.
 
-API rate limit
---------------
+API rate limit (VPN is ineffective)
+-----------------------------------
 
 Every third-party application connected to Instagram's API 
 has a restriction on how many times it may access its data. 
