@@ -14,6 +14,7 @@ passwd = input('\nEnter Instagram Password : ')
 source = ['bbc-news', 'cnn', 'the-verge', 'time', 'the-wall-street-journal']
 source = random.choice(source)
 
+print('\n', source)
 gets = f'https://newsapi.org/v1/articles?source={source}&sortBy=top&apiKey={news_api}'
 
 req = requests.get(gets)
@@ -47,7 +48,7 @@ for j, i in enumerate(box):
     make_square(path, j)
 
 bot = Client()
-user = 'vix.bot'
+user = 'vixbot2023'
 
 bot.login(username = user, password = passwd)
 album_path = ['images/'+i for i in os.listdir('images')]
@@ -61,15 +62,15 @@ post_url = bot.album_upload(
 media_id = json.loads(post_url.json())['id']
 print(media_id)
 
-# comment = bot.media_comment(
-#     media_id, 
-#     f"MediaID = (PostID_UserID) : {media_id}"
-# )
-# bot.comment_like(comment.pk)
+comment = bot.media_comment(
+    media_id, 
+    f"MediaID = (PostID_UserID) : {media_id}"
+)
+bot.comment_like(comment.pk)
 
-# reply = bot.media_comment(
-#     media_id, 
-#     f"Comment ID : {comment.pk}", 
-#     replied_to_comment_id=comment.pk
-# )
-# bot.comment_like(reply.pk)
+reply = bot.media_comment(
+    media_id, 
+    f"Comment ID : {comment.pk}", 
+    replied_to_comment_id=comment.pk
+)
+bot.comment_like(reply.pk)
