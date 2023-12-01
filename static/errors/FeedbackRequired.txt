@@ -1,0 +1,26 @@
+C:\Users\Vicky\Desktop\Repository\open.source.threads\static>python insta_news.py
+
+ the-wall-street-journal
+Traceback (most recent call last):
+  File "C:\Users\Vicky\anaconda3\lib\site-packages\instagrapi\mixins\private.py", line 313, in _send_private_request
+    response.raise_for_status()
+  File "C:\Users\Vicky\anaconda3\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://i.instagram.com/api/v1/media/3248000393764331210_63141144937/comment/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vicky\Desktop\Repository\open.source.threads\static\insta_news.py", line 61, in <module>
+    comment = bot.media_comment(
+  File "C:\Users\Vicky\anaconda3\lib\site-packages\instagrapi\mixins\comment.py", line 149, in media_comment
+    result = self.private_request(
+  File "C:\Users\Vicky\anaconda3\lib\site-packages\instagrapi\mixins\private.py", line 461, in private_request
+    raise e
+  File "C:\Users\Vicky\anaconda3\lib\site-packages\instagrapi\mixins\private.py", line 446, in private_request
+    self._send_private_request(endpoint, **kwargs)
+  File "C:\Users\Vicky\anaconda3\lib\site-packages\instagrapi\mixins\private.py", line 346, in _send_private_request
+    raise FeedbackRequired(
+instagrapi.exceptions.FeedbackRequired: feedback_required: We restrict certain activity to protect our community. Based on your use, this action will be unavailable for you until 2023-12-01. Tell us if you think we made a mistake.
+
+C:\Users\Vicky\Desktop\Repository\open.source.threads\static>
