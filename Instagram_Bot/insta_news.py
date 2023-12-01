@@ -1,9 +1,6 @@
 
-# import sys
-# sys.setrecursionlimit(50000)
-
+import requests, random, os, json
 from instagrapi import Client
-import requests, random, os
 from PIL import ImageDraw
 from PIL import ImageFont
 from PIL import Image
@@ -56,7 +53,23 @@ bot.login(username = user, password = passwd)
 album_path = ['images/'+i for i in os.listdir('images')]
 
 text = f'Read More:\n https://googleadsense.pythonanywhere.com/news/{source}\n\n'
-bot.album_upload(
+post_url = bot.album_upload(
     album_path,
     caption = text + '\n'.join(cap)
 )
+
+media_id = json.loads(post_url.json())['id']
+print(media_id)
+
+# comment = bot.media_comment(
+#     media_id, 
+#     f"MediaID = (PostID_UserID) : {media_id}"
+# )
+# bot.comment_like(comment.pk)
+
+# reply = bot.media_comment(
+#     media_id, 
+#     f"Comment ID : {comment.pk}", 
+#     replied_to_comment_id=comment.pk
+# )
+# bot.comment_like(reply.pk)
