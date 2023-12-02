@@ -8,8 +8,11 @@ from PIL import Image
 try: os.mkdir('images')
 except: pass
 
-news_api = input('\nEnter NewsAPI Key : ')
+# user = 'vixbot2023'
+user = input('\nEnter Instagram Username : ')
+
 passwd = input('\nEnter Instagram Password : ')
+news_api = input('\nEnter NewsAPI Key : ')
 
 source = ['bbc-news', 'cnn', 'the-verge', 'time', 'the-wall-street-journal']
 source = random.choice(source)
@@ -48,19 +51,15 @@ for j, i in enumerate(box):
     make_square(path, j)
 
 bot = Client()
-user = 'vixbot2023'
-
 bot.login(username = user, password = passwd)
 album_path = ['images/'+i for i in os.listdir('images')]
 
-text = f'Read More:\n https://googleadsense.pythonanywhere.com/news/{source}\n\n'
+text = f'Read More:\n https://imvickykumar999.pythonanywhere.com/news/{source}\n\n'
 post_url = bot.album_upload(
     album_path,
     caption = text + '\n'.join(cap)
 )
-
 media_id = json.loads(post_url.json())['id']
-print(media_id)
 
 comment = bot.media_comment(
     media_id, 
