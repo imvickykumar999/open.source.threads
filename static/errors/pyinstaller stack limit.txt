@@ -1,30 +1,33 @@
-C:\Users\Vicky\Desktop\Repository\open.source.threads\Instagram_Bot>pyinstaller --onefile insta_news.py
-6513 INFO: PyInstaller: 5.1
-6513 INFO: Python: 3.9.13 (conda)
-6526 INFO: Platform: Windows-10-10.0.22635-SP0
-6528 INFO: wrote C:\Users\Vicky\Desktop\Repository\open.source.threads\Instagram_Bot\insta_news.spec
-6532 INFO: UPX is not available.
-6536 INFO: Extending PYTHONPATH with paths
-['C:\\Users\\Vicky\\Desktop\\Repository\\open.source.threads\\Instagram_Bot']
+Microsoft Windows [Version 10.0.22635.2776]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Vicky\Desktop\Repository\open.source.threads\static>pyinstaller --onefile inpyinstaller --onefile insta_news.py
+16915 INFO: PyInstaller: 5.1
+16916 INFO: Python: 3.9.13 (conda)
+16963 INFO: Platform: Windows-10-10.0.22635-SP0
+16965 INFO: wrote C:\Users\Vicky\Desktop\Repository\open.source.threads\static\insta_news.spec
+17036 INFO: UPX is not available.
+17058 INFO: Extending PYTHONPATH with paths
+['C:\\Users\\Vicky\\Desktop\\Repository\\open.source.threads\\static']
 pygame 2.5.0 (SDL 2.28.0, Python 3.9.13)
 Hello from the pygame community. https://www.pygame.org/contribute.html
-10928 INFO: checking Analysis
-10928 INFO: Building Analysis because Analysis-00.toc is non existent
-10928 INFO: Initializing module dependency graph...
-10941 INFO: Caching module graph hooks...
-10959 WARNING: Several hooks defined for module 'numpy'. Please take care they do not conflict.
-10970 INFO: Analyzing base_library.zip ...
-23221 INFO: Processing pre-find module path hook distutils from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-distutils.py'.
-23224 INFO: distutils: retargeting to non-venv dir 'C:\\Users\\Vicky\\anaconda3\\lib'
-33708 INFO: Caching module dependency graph...
-34131 INFO: running Analysis Analysis-00.toc
-34165 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+34975 INFO: checking Analysis
+34976 INFO: Building Analysis because Analysis-00.toc is non existent
+34977 INFO: Initializing module dependency graph...
+35128 INFO: Caching module graph hooks...
+35317 WARNING: Several hooks defined for module 'numpy'. Please take care they do not conflict.
+35545 INFO: Analyzing base_library.zip ...
+70913 INFO: Processing pre-find module path hook distutils from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-distutils.py'.
+70920 INFO: distutils: retargeting to non-venv dir 'C:\\Users\\Vicky\\anaconda3\\lib'
+95834 INFO: Caching module dependency graph...
+97238 INFO: running Analysis Analysis-00.toc
+97297 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
   required by C:\Users\Vicky\anaconda3\python.exe
-34527 INFO: Analyzing C:\Users\Vicky\Desktop\Repository\open.source.threads\Instagram_Bot\insta_news.py
-56591 INFO: Processing pre-find module path hook site from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-site.py'.
-56593 INFO: site: retargeting to fake-dir 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\fake-modules'
-120823 INFO: Processing pre-safe import module hook six.moves from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module\\hook-six.moves.py'.
-232961 INFO: Processing pre-safe import module hook win32com from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\pre_safe_import_module\\hook-win32com.py'.
+98169 INFO: Analyzing C:\Users\Vicky\Desktop\Repository\open.source.threads\static\insta_news.py
+167511 INFO: Processing pre-find module path hook site from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-site.py'.
+167515 INFO: site: retargeting to fake-dir 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\fake-modules'
+317714 INFO: Processing pre-safe import module hook six.moves from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module\\hook-six.moves.py'.
+586563 INFO: Processing pre-safe import module hook win32com from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\pre_safe_import_module\\hook-win32com.py'.
 
 =============================================================
 A RecursionError (maximum recursion depth exceeded) occurred.
@@ -54,3 +57,6 @@ nesting being too deep and hitting Python's stack-limit.
 With the default recursion limit (1000), the recursion error occurs at about
 115 nested imported, with limit 2000 at about 240, with limit 5000 at about
 660.
+
+
+C:\Users\Vicky\Desktop\Repository\open.source.threads\static>
