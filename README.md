@@ -1,4 +1,8 @@
-# [`open`.`source`.`threads`](https://imvickykumar999.github.io/open.source.threads/)
+># [`open`.`source`.`threads`](https://imvickykumar999.github.io/open.source.threads/)
+>
+>     Daily Automated News Posts
+>
+>![image](https://github.com/imvickykumar999/open.source.threads/assets/50515418/e75859e9-44e0-495e-874e-f57276333852)
 
 **Mastodon** *is* **a** ***decentralized*** *open source* **social media platform.**
 
