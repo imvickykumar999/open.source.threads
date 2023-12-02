@@ -5,24 +5,15 @@ from PIL import ImageDraw
 from PIL import ImageFont
 from PIL import Image
 
-try: os.mkdir('images')
-except: pass
+def fetch_news(news_api):
+    source = ['bbc-news', 'cnn', 'the-verge', 'time', 'the-wall-street-journal']
+    source = random.choice(source)
+    print('\n', source)
+    gets = f'https://newsapi.org/v1/articles?source={source}&sortBy=top&apiKey={news_api}'
 
-# user = 'vixbot2023'
-user = input('\nEnter Instagram Username : ')
-
-passwd = input('\nEnter Instagram Password : ')
-news_api = input('\nEnter NewsAPI Key : ')
-
-source = ['bbc-news', 'cnn', 'the-verge', 'time', 'the-wall-street-journal']
-source = random.choice(source)
-
-print('\n', source)
-gets = f'https://newsapi.org/v1/articles?source={source}&sortBy=top&apiKey={news_api}'
-
-req = requests.get(gets)
-box = req.json()['articles']
-cap = []
+    req = requests.get(gets)
+    box = req.json()['articles']
+    return box, source
 
 def make_square(im, j, min_size=256, fill_color=(255,255,255,0)):
     img = Image.open(im)
@@ -40,36 +31,50 @@ def make_square(im, j, min_size=256, fill_color=(255,255,255,0)):
     I1.text((15, 15), f'[ {j+1} ]', font=myFont, fill=(0, 0, 0))
     new_im.save(im)
 
-for j, i in enumerate(box):
-    tweet = f'({j+1}). {i["title"]}\n'
-    cap.append(tweet)
-    img = i['urlToImage']
-    r = requests.get(img, allow_redirects=True)
+def upload_news(user, passwd):
+    try:
+        news_api = '********************************'
+        box, source = fetch_news(news_api)
 
-    path = f'images/{j}.jpg'
-    open(path, 'wb').write(r.content)
-    make_square(path, j)
+    except Exception as e:
+        print(e)
+        news_api = '********************************'
+        box, source = fetch_news(news_api)
 
-bot = Client()
-bot.login(username = user, password = passwd)
-album_path = ['images/'+i for i in os.listdir('images')]
+    cap = []
+    for j, i in enumerate(box):
+        tweet = f'({j+1}). {i["title"]}\n'
+        cap.append(tweet)
+        img = i['urlToImage']
+        r = requests.get(img, allow_redirects=True)
 
-text = f'Read More:\n https://imvickykumar999.pythonanywhere.com/news/{source}\n\n'
-post_url = bot.album_upload(
-    album_path,
-    caption = text + '\n'.join(cap)
-)
-media_id = json.loads(post_url.json())['id']
+        path = f'images/{j}.jpg'
+        open(path, 'wb').write(r.content)
+        make_square(path, j)
 
-comment = bot.media_comment(
-    media_id, 
-    f"MediaID = (PostID_UserID) : {media_id}"
-)
-bot.comment_like(comment.pk)
+    bot = Client()
+    bot.login(username = user, password = passwd)
+    album_path = ['images/'+i for i in os.listdir('images')]
 
-reply = bot.media_comment(
-    media_id, 
-    f"Comment ID : {comment.pk}", 
-    replied_to_comment_id=comment.pk
-)
-bot.comment_like(reply.pk)
+    text = f'Read More:\n https://imvickykumar999.pythonanywhere.com/news/{source}\n\n'
+    post_url = bot.album_upload(
+        album_path,
+        caption = text + '\n'.join(cap)
+    )
+    media_id = json.loads(post_url.json())['id']
+
+    comment = bot.media_comment(
+        media_id, 
+        f"MediaID = (PostID_UserID) : {media_id}"
+    )
+    bot.comment_like(comment.pk)
+
+    reply = bot.media_comment(
+        media_id, 
+        f"Comment ID : {comment.pk}", 
+        replied_to_comment_id=comment.pk
+    )
+    bot.comment_like(reply.pk)
+
+try: upload_news('**********', '**********')
+except Exception as e: print(e)
