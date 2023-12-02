@@ -2,7 +2,11 @@
 >
 >     Daily Automated News Posts
 >
+> - `Google Apps Script` : [`Daily Function Calls`](https://script.google.com/u/0/home/projects/1UijQ7ly5WSLKrMLLgFDhYti71GWC7onL2jbdLwW6QsbvD8MCvRhjrfMv/edit)
+>
 >![image](https://github.com/imvickykumar999/open.source.threads/assets/50515418/e75859e9-44e0-495e-874e-f57276333852)
+
+<br>
 
 **Mastodon** *is* **a** ***decentralized*** *open source* **social media platform.**
 
