@@ -61,6 +61,8 @@ def upload_news(user, passwd):
         album_path,
         caption = text + '\n'.join(cap)
     )
+    
+    bot.photo_upload_to_story(album_path[0])
     media_id = json.loads(post_url.json())['id']
 
     comment = bot.media_comment(
