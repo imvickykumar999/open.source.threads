@@ -20,14 +20,14 @@ import openai, os
 from instagrapi import Client
 
 try:
-    os.mkdir('images')
+    os.mkdir('openai')
 except:
     pass
 
-user = 'vix.bot'
+user = 'vicksbot2023'
 passwd = input('\nEnter Instagram Password : ')
 
-API_Key = input('Enter OpenAI API Key : ')
+API_Key = input('\nEnter OpenAI API Key : ')
 openai.api_key = API_Key
 
 print('\nUploading ...')
@@ -83,7 +83,7 @@ for i in range(n):
     img = list(image_resp['data'][i].values())[0]
     r = requests.get(img, allow_redirects=True)
 
-    path = f'images/{file}.jpg'
+    path = f'openai/{file}.jpg'
     open(path, 'wb').write(r.content)
     make_square(path)
 
@@ -91,7 +91,7 @@ bot = Client()
 # bot = Bot()
 
 bot.login(username = user, password = passwd)
-album_path = ['images/'+i for i in os.listdir('images')]
+album_path = ['openai/'+i for i in os.listdir('openai')]
 
 bot.album_upload(
     album_path,
