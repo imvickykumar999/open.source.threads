@@ -1,7 +1,12 @@
 Microsoft Windows [Version 10.0.22635.2776]
-(c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Vicky\Desktop\Repository\open.source.threads\static>pyinstaller --onefile inpyinstaller --onefile insta_news.py
+    (c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Vicky\Desktop\Repository\open.source.threads\static>
+
+    pyinstaller --onefile inpyinstaller --onefile insta_news.py
+
+```bash
 16915 INFO: PyInstaller: 5.1
 16916 INFO: Python: 3.9.13 (conda)
 16963 INFO: Platform: Windows-10-10.0.22635-SP0
@@ -28,11 +33,12 @@ Hello from the pygame community. https://www.pygame.org/contribute.html
 167515 INFO: site: retargeting to fake-dir 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\fake-modules'
 317714 INFO: Processing pre-safe import module hook six.moves from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module\\hook-six.moves.py'.
 586563 INFO: Processing pre-safe import module hook win32com from 'C:\\Users\\Vicky\\anaconda3\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\pre_safe_import_module\\hook-win32com.py'.
+```
 
-=============================================================
-A RecursionError (maximum recursion depth exceeded) occurred.
-For working around please follow these instructions
-=============================================================
+    =============================================================
+    A RecursionError (maximum recursion depth exceeded) occurred.
+    For working around please follow these instructions
+    =============================================================
 
 1. In your program's .spec file add this line near the top::
 
