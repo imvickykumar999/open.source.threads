@@ -25,6 +25,14 @@
 >## `Preferring Mastodon` ***over*** `Twitter or Threads`
 >
 >![image](https://github.com/imvickykumar999/open.source.threads/assets/50515418/ebee84ad-b85c-424c-a982-a8bb90df0712)
+>
+>        Daily Automation Tools
+>
+> - `Apps Script Trigger` : `Mastodon`
+> - `PythonAnyWhere Tasks` : `Telegram`
+> - `Batch Shell StartUp` : `Instagram`
+>
+>![image](https://github.com/imvickykumar999/open.source.threads/assets/50515418/e409d32c-df33-4cd3-9d47-89f887a3f477)
 
 <br>
 
