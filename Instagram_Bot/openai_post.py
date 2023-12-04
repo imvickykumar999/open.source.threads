@@ -12,17 +12,13 @@ Please visit https://help.openai.com/en/articles/6696591
 to learn how to increase your rate limit.
 '''
 
-import requests, time, random
+from instagrapi import Client
+import requests, random
 from PIL import Image
 import openai, os
 
-# from instabot import Bot
-from instagrapi import Client
-
-try:
-    os.mkdir('openai')
-except:
-    pass
+try: os.mkdir('openai')
+except: pass
 
 user = 'vicksbot2023'
 passwd = input('\nEnter Instagram Password : ')
@@ -33,7 +29,7 @@ openai.api_key = API_Key
 print('\nUploading ...')
 completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", 
                 messages=[{"role": "user", 
-                           "content": "Trending Minecraft Games"}])
+                           "content": "List of Most Happiest Bird Paintings"}])
 
 topics = completion.choices[0].message.content
 
@@ -62,8 +58,10 @@ except:
 '''
     topic = random.choice(topics.split('\n')[2:-2]).split('. ')[1]
 
+print(topic)
+
 n=5
-image_resp = openai.Image.create(prompt=topic, n=n, size="512x512")
+image_resp = openai.Image.create(prompt=topic + ' Make it more Happier.', n=n, size="512x512")
 
 def make_square(im, min_size=256, fill_color=(255,255,255,0)):
     img = Image.open(im)
@@ -77,19 +75,14 @@ def make_square(im, min_size=256, fill_color=(255,255,255,0)):
     new_im.save(im)
     
 for i in range(n):
-    file = time.time()
-    time.sleep(1)
-
     img = list(image_resp['data'][i].values())[0]
     r = requests.get(img, allow_redirects=True)
 
-    path = f'openai/{file}.jpg'
+    path = f'openai/{i}.jpg'
     open(path, 'wb').write(r.content)
     make_square(path)
 
 bot = Client()
-# bot = Bot()
-
 bot.login(username = user, password = passwd)
 album_path = ['openai/'+i for i in os.listdir('openai')]
 
