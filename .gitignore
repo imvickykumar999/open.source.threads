@@ -2,3 +2,4 @@
 *secret key.txt
 static/insta_news.py
 Instagram_Bot/openai_post.py
+Instagram_Bot/Instagr_API/GCP Deploy/main.py
