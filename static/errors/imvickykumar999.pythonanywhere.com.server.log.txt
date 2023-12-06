@@ -1,0 +1,1497 @@
+2023-11-21 07:04:34 cnn
+2023-11-21 15:38:15 *** Starting uWSGI 2.0.20 (64bit) on [Tue Nov 21 15:38:14 2023] ***
+2023-11-21 15:38:15 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-21 15:38:15 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-21 15:38:15 nodename: blue-liveweb9
+2023-11-21 15:38:15 machine: x86_64
+2023-11-21 15:38:15 clock source: unix
+2023-11-21 15:38:15 pcre jit disabled
+2023-11-21 15:38:15 detected number of CPU cores: 4
+2023-11-21 15:38:15 current working directory: /home/imvickykumar999
+2023-11-21 15:38:15 detected binary path: /usr/local/bin/uwsgi
+2023-11-21 15:38:15 *** dumping internal routing table ***
+2023-11-21 15:38:15 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-21 15:38:15 *** end of the internal routing table ***
+2023-11-21 15:38:15 chdir() to /home/imvickykumar999/
+2023-11-21 15:38:15 your processes number limit is 256
+2023-11-21 15:38:15 your memory page size is 4096 bytes
+2023-11-21 15:38:15 detected max file descriptor number: 123456
+2023-11-21 15:38:15 building mime-types dictionary from file /etc/mime.types...
+2023-11-21 15:38:15 567 entry found
+2023-11-21 15:38:15 lock engine: pthread robust mutexes
+2023-11-21 15:38:15 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-21 15:38:15 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-21 15:38:15 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-21 15:38:15 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-21 15:38:15 Python main interpreter initialized at 0x5618d2b2bd30
+2023-11-21 15:38:15 your server socket listen backlog is limited to 100 connections
+2023-11-21 15:38:15 your mercy for graceful operations on workers is 60 seconds
+2023-11-21 15:38:15 setting request body buffering size to 65536 bytes
+2023-11-21 15:38:15 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-21 15:38:15 *** Operational MODE: single process ***
+2023-11-21 15:38:15 initialized 38 metrics
+2023-11-21 15:38:15 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5618d2b2bd30 pid: 1 (default app)
+2023-11-21 15:38:15 *** uWSGI is running in multiple interpreter mode ***
+2023-11-21 15:38:15 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-21 15:38:15 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-21 15:38:15 metrics collector thread started
+2023-11-21 15:38:15 spawned 2 offload threads for uWSGI worker 1
+2023-11-21 15:38:17 announcing my loyalty to the Emperor...
+2023-11-22 01:44:10 the-wall-street-journal
+2023-11-22 06:03:24 the-verge
+2023-11-22 06:13:27 bbc-news
+2023-11-22 08:32:59 time
+2023-11-22 08:34:33 time
+2023-11-22 08:40:06 the-wall-street-journal
+2023-11-22 08:42:12 the-wall-street-journal
+2023-11-22 09:27:14 *** Starting uWSGI 2.0.20 (64bit) on [Wed Nov 22 09:27:13 2023] ***
+2023-11-22 09:27:14 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-22 09:27:14 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-22 09:27:14 nodename: blue-liveweb9
+2023-11-22 09:27:14 machine: x86_64
+2023-11-22 09:27:14 clock source: unix
+2023-11-22 09:27:14 pcre jit disabled
+2023-11-22 09:27:14 detected number of CPU cores: 4
+2023-11-22 09:27:14 current working directory: /home/imvickykumar999
+2023-11-22 09:27:14 detected binary path: /usr/local/bin/uwsgi
+2023-11-22 09:27:14 *** dumping internal routing table ***
+2023-11-22 09:27:14 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-22 09:27:14 *** end of the internal routing table ***
+2023-11-22 09:27:14 chdir() to /home/imvickykumar999/
+2023-11-22 09:27:14 your processes number limit is 256
+2023-11-22 09:27:14 your memory page size is 4096 bytes
+2023-11-22 09:27:14 detected max file descriptor number: 123456
+2023-11-22 09:27:14 building mime-types dictionary from file /etc/mime.types...
+2023-11-22 09:27:14 567 entry found
+2023-11-22 09:27:14 lock engine: pthread robust mutexes
+2023-11-22 09:27:14 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-22 09:27:14 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-22 09:27:14 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-22 09:27:14 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-22 09:27:14 Python main interpreter initialized at 0x55bbede0bd30
+2023-11-22 09:27:14 your server socket listen backlog is limited to 100 connections
+2023-11-22 09:27:14 your mercy for graceful operations on workers is 60 seconds
+2023-11-22 09:27:14 setting request body buffering size to 65536 bytes
+2023-11-22 09:27:14 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-22 09:27:14 *** Operational MODE: single process ***
+2023-11-22 09:27:14 initialized 38 metrics
+2023-11-22 09:27:14 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55bbede0bd30 pid: 1 (default app)
+2023-11-22 09:27:14 *** uWSGI is running in multiple interpreter mode ***
+2023-11-22 09:27:14 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-22 09:27:14 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-22 09:27:14 metrics collector thread started
+2023-11-22 09:27:14 spawned 2 offload threads for uWSGI worker 1
+2023-11-22 09:27:16 announcing my loyalty to the Emperor...
+2023-11-22 09:28:54 the-verge
+2023-11-22 09:38:44 cnn
+2023-11-24 13:40:55 *** Starting uWSGI 2.0.20 (64bit) on [Fri Nov 24 13:40:54 2023] ***
+2023-11-24 13:40:55 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-24 13:40:55 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-24 13:40:55 nodename: blue-liveweb9
+2023-11-24 13:40:55 machine: x86_64
+2023-11-24 13:40:55 clock source: unix
+2023-11-24 13:40:55 pcre jit disabled
+2023-11-24 13:40:55 detected number of CPU cores: 4
+2023-11-24 13:40:55 current working directory: /home/imvickykumar999
+2023-11-24 13:40:55 detected binary path: /usr/local/bin/uwsgi
+2023-11-24 13:40:55 *** dumping internal routing table ***
+2023-11-24 13:40:55 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-24 13:40:55 *** end of the internal routing table ***
+2023-11-24 13:40:55 chdir() to /home/imvickykumar999/
+2023-11-24 13:40:55 your processes number limit is 256
+2023-11-24 13:40:55 your memory page size is 4096 bytes
+2023-11-24 13:40:55 detected max file descriptor number: 123456
+2023-11-24 13:40:55 building mime-types dictionary from file /etc/mime.types...
+2023-11-24 13:40:55 567 entry found
+2023-11-24 13:40:55 lock engine: pthread robust mutexes
+2023-11-24 13:40:55 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-24 13:40:55 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-24 13:40:55 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-24 13:40:55 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-24 13:40:55 Python main interpreter initialized at 0x5636f8664d30
+2023-11-24 13:40:55 your server socket listen backlog is limited to 100 connections
+2023-11-24 13:40:55 your mercy for graceful operations on workers is 60 seconds
+2023-11-24 13:40:55 setting request body buffering size to 65536 bytes
+2023-11-24 13:40:55 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-24 13:40:55 *** Operational MODE: single process ***
+2023-11-24 13:40:55 initialized 38 metrics
+2023-11-24 13:40:55 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5636f8664d30 pid: 1 (default app)
+2023-11-24 13:40:55 *** uWSGI is running in multiple interpreter mode ***
+2023-11-24 13:40:55 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-24 13:40:55 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-24 13:40:55 metrics collector thread started
+2023-11-24 13:40:55 spawned 2 offload threads for uWSGI worker 1
+2023-11-24 13:40:56 announcing my loyalty to the Emperor...
+2023-11-24 13:41:04 the-verge
+2023-11-25 16:07:34 *** Starting uWSGI 2.0.20 (64bit) on [Sat Nov 25 16:07:33 2023] ***
+2023-11-25 16:07:34 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-25 16:07:34 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-25 16:07:34 nodename: blue-liveweb9
+2023-11-25 16:07:34 machine: x86_64
+2023-11-25 16:07:34 clock source: unix
+2023-11-25 16:07:34 pcre jit disabled
+2023-11-25 16:07:34 detected number of CPU cores: 4
+2023-11-25 16:07:34 current working directory: /home/imvickykumar999
+2023-11-25 16:07:34 detected binary path: /usr/local/bin/uwsgi
+2023-11-25 16:07:34 *** dumping internal routing table ***
+2023-11-25 16:07:34 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-25 16:07:34 *** end of the internal routing table ***
+2023-11-25 16:07:34 chdir() to /home/imvickykumar999/
+2023-11-25 16:07:34 your processes number limit is 256
+2023-11-25 16:07:34 your memory page size is 4096 bytes
+2023-11-25 16:07:34 detected max file descriptor number: 123456
+2023-11-25 16:07:34 building mime-types dictionary from file /etc/mime.types...
+2023-11-25 16:07:34 567 entry found
+2023-11-25 16:07:34 lock engine: pthread robust mutexes
+2023-11-25 16:07:34 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-25 16:07:34 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-25 16:07:34 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-25 16:07:34 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-25 16:07:34 Python main interpreter initialized at 0x55fc97c39d30
+2023-11-25 16:07:34 your server socket listen backlog is limited to 100 connections
+2023-11-25 16:07:34 your mercy for graceful operations on workers is 60 seconds
+2023-11-25 16:07:34 setting request body buffering size to 65536 bytes
+2023-11-25 16:07:34 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-25 16:07:34 *** Operational MODE: single process ***
+2023-11-25 16:07:34 initialized 38 metrics
+2023-11-25 16:07:34 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55fc97c39d30 pid: 1 (default app)
+2023-11-25 16:07:34 *** uWSGI is running in multiple interpreter mode ***
+2023-11-25 16:07:34 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-25 16:07:34 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-25 16:07:34 metrics collector thread started
+2023-11-25 16:07:34 spawned 2 offload threads for uWSGI worker 1
+2023-11-25 16:07:35 the-verge
+2023-11-25 16:07:35 announcing my loyalty to the Emperor...
+2023-11-25 16:08:03 the-verge
+2023-11-25 16:08:03 the-verge
+2023-11-25 16:08:28 the-wall-street-journal
+2023-11-25 16:12:05 Sat Nov 25 16:12:05 2023 - received message 0 from emperor
+2023-11-25 16:12:05 SIGINT/SIGTERM received...killing workers...
+2023-11-25 16:12:06 worker 1 buried after 1 seconds
+2023-11-25 16:12:06 goodbye to uWSGI.
+2023-11-25 16:12:06 VACUUM: unix socket /var/sockets/imvickykumar999.pythonanywhere.com/socket removed.
+2023-11-25 16:12:10 *** Starting uWSGI 2.0.20 (64bit) on [Sat Nov 25 16:12:10 2023] ***
+2023-11-25 16:12:10 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-25 16:12:10 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-25 16:12:10 nodename: blue-liveweb9
+2023-11-25 16:12:10 machine: x86_64
+2023-11-25 16:12:10 clock source: unix
+2023-11-25 16:12:10 pcre jit disabled
+2023-11-25 16:12:10 detected number of CPU cores: 4
+2023-11-25 16:12:10 current working directory: /home/imvickykumar999
+2023-11-25 16:12:10 detected binary path: /usr/local/bin/uwsgi
+2023-11-25 16:12:10 *** dumping internal routing table ***
+2023-11-25 16:12:10 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-25 16:12:10 *** end of the internal routing table ***
+2023-11-25 16:12:10 chdir() to /home/imvickykumar999/
+2023-11-25 16:12:10 your processes number limit is 256
+2023-11-25 16:12:10 your memory page size is 4096 bytes
+2023-11-25 16:12:10 detected max file descriptor number: 123456
+2023-11-25 16:12:10 building mime-types dictionary from file /etc/mime.types...
+2023-11-25 16:12:10 567 entry found
+2023-11-25 16:12:10 lock engine: pthread robust mutexes
+2023-11-25 16:12:10 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-25 16:12:10 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-25 16:12:10 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-25 16:12:10 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-25 16:12:10 Python main interpreter initialized at 0x555ce24bcd30
+2023-11-25 16:12:10 your server socket listen backlog is limited to 100 connections
+2023-11-25 16:12:10 your mercy for graceful operations on workers is 60 seconds
+2023-11-25 16:12:10 setting request body buffering size to 65536 bytes
+2023-11-25 16:12:10 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-25 16:12:10 *** Operational MODE: single process ***
+2023-11-25 16:12:10 initialized 38 metrics
+2023-11-25 16:12:10 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x555ce24bcd30 pid: 1 (default app)
+2023-11-25 16:12:10 *** uWSGI is running in multiple interpreter mode ***
+2023-11-25 16:12:10 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-25 16:12:10 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-25 16:12:10 metrics collector thread started
+2023-11-25 16:12:10 spawned 2 offload threads for uWSGI worker 1
+2023-11-25 16:12:18 cnn
+2023-11-25 16:12:18 announcing my loyalty to the Emperor...
+2023-11-25 16:12:26 the-verge
+2023-11-25 16:12:34 the-verge
+2023-11-25 16:13:34 the-wall-street-journal
+2023-11-25 16:14:30 cnn
+2023-11-25 16:27:33 the-verge
+2023-11-25 16:27:34 the-verge
+2023-11-25 16:33:14 the-wall-street-journal
+2023-11-25 16:33:18 cnn
+2023-11-25 16:38:09 bbc-news
+2023-11-25 16:43:04 the-wall-street-journal
+2023-11-25 16:44:08 bbc-news
+2023-11-25 16:48:14 bbc-news
+2023-11-25 16:48:20 bbc-news
+2023-11-25 19:18:36 bbc-news
+2023-11-25 19:20:41 time
+2023-11-25 22:07:30 the-wall-street-journal
+2023-11-26 04:07:08 cnn
+2023-11-26 04:07:19 the-wall-street-journal
+2023-11-26 04:16:13 cnn
+2023-11-26 04:44:27 cnn
+2023-11-26 05:04:58 time
+2023-11-26 05:05:24 time
+2023-11-26 07:22:30 the-verge
+2023-11-26 07:23:52 time
+2023-11-26 09:33:48 time
+2023-11-26 09:33:53 cnn
+2023-11-26 13:22:18 the-wall-street-journal
+2023-11-27 01:05:33 *** Starting uWSGI 2.0.20 (64bit) on [Mon Nov 27 01:05:32 2023] ***
+2023-11-27 01:05:33 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-27 01:05:33 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-27 01:05:33 nodename: blue-liveweb9
+2023-11-27 01:05:33 machine: x86_64
+2023-11-27 01:05:33 clock source: unix
+2023-11-27 01:05:33 pcre jit disabled
+2023-11-27 01:05:33 detected number of CPU cores: 4
+2023-11-27 01:05:33 current working directory: /home/imvickykumar999
+2023-11-27 01:05:33 detected binary path: /usr/local/bin/uwsgi
+2023-11-27 01:05:33 *** dumping internal routing table ***
+2023-11-27 01:05:33 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-27 01:05:33 *** end of the internal routing table ***
+2023-11-27 01:05:33 chdir() to /home/imvickykumar999/
+2023-11-27 01:05:33 your processes number limit is 256
+2023-11-27 01:05:33 your memory page size is 4096 bytes
+2023-11-27 01:05:33 detected max file descriptor number: 123456
+2023-11-27 01:05:33 building mime-types dictionary from file /etc/mime.types...
+2023-11-27 01:05:33 567 entry found
+2023-11-27 01:05:33 lock engine: pthread robust mutexes
+2023-11-27 01:05:33 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-27 01:05:33 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-27 01:05:33 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-27 01:05:33 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-27 01:05:33 Python main interpreter initialized at 0x557f7f27fd30
+2023-11-27 01:05:33 your server socket listen backlog is limited to 100 connections
+2023-11-27 01:05:33 your mercy for graceful operations on workers is 60 seconds
+2023-11-27 01:05:33 setting request body buffering size to 65536 bytes
+2023-11-27 01:05:33 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-27 01:05:33 *** Operational MODE: single process ***
+2023-11-27 01:05:33 initialized 38 metrics
+2023-11-27 01:05:33 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557f7f27fd30 pid: 1 (default app)
+2023-11-27 01:05:33 *** uWSGI is running in multiple interpreter mode ***
+2023-11-27 01:05:33 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-27 01:05:33 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-27 01:05:33 metrics collector thread started
+2023-11-27 01:05:33 spawned 2 offload threads for uWSGI worker 1
+2023-11-27 01:05:34 the-verge
+2023-11-27 01:05:34 announcing my loyalty to the Emperor...
+2023-11-27 02:10:33 the-verge
+2023-11-27 05:12:48 the-wall-street-journal
+2023-11-27 05:44:17 cnn
+2023-11-27 06:29:12 time
+2023-11-27 06:39:09 the-verge
+2023-11-27 06:58:23 bbc-news
+2023-11-27 06:58:23 the-wall-street-journal
+2023-11-27 07:16:16 Mon Nov 27 07:16:16 2023 - received message 0 from emperor
+2023-11-27 07:16:16 SIGINT/SIGTERM received...killing workers...
+2023-11-27 07:16:17 worker 1 buried after 1 seconds
+2023-11-27 07:16:17 goodbye to uWSGI.
+2023-11-27 07:16:17 VACUUM: unix socket /var/sockets/imvickykumar999.pythonanywhere.com/socket removed.
+2023-11-27 07:16:21 *** Starting uWSGI 2.0.20 (64bit) on [Mon Nov 27 07:16:20 2023] ***
+2023-11-27 07:16:21 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-27 07:16:21 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-27 07:16:21 nodename: blue-liveweb9
+2023-11-27 07:16:21 machine: x86_64
+2023-11-27 07:16:21 clock source: unix
+2023-11-27 07:16:21 pcre jit disabled
+2023-11-27 07:16:21 detected number of CPU cores: 4
+2023-11-27 07:16:21 current working directory: /home/imvickykumar999
+2023-11-27 07:16:21 detected binary path: /usr/local/bin/uwsgi
+2023-11-27 07:16:21 *** dumping internal routing table ***
+2023-11-27 07:16:21 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-27 07:16:21 *** end of the internal routing table ***
+2023-11-27 07:16:21 chdir() to /home/imvickykumar999/
+2023-11-27 07:16:21 your processes number limit is 256
+2023-11-27 07:16:21 your memory page size is 4096 bytes
+2023-11-27 07:16:21 detected max file descriptor number: 123456
+2023-11-27 07:16:21 building mime-types dictionary from file /etc/mime.types...
+2023-11-27 07:16:21 567 entry found
+2023-11-27 07:16:21 lock engine: pthread robust mutexes
+2023-11-27 07:16:21 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-27 07:16:21 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-27 07:16:21 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-27 07:16:21 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-27 07:16:21 Python main interpreter initialized at 0x55a958bd2d30
+2023-11-27 07:16:21 your server socket listen backlog is limited to 100 connections
+2023-11-27 07:16:21 your mercy for graceful operations on workers is 60 seconds
+2023-11-27 07:16:21 setting request body buffering size to 65536 bytes
+2023-11-27 07:16:21 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-27 07:16:21 *** Operational MODE: single process ***
+2023-11-27 07:16:21 initialized 38 metrics
+2023-11-27 07:16:21 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a958bd2d30 pid: 1 (default app)
+2023-11-27 07:16:21 *** uWSGI is running in multiple interpreter mode ***
+2023-11-27 07:16:21 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-27 07:16:21 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-27 07:16:21 metrics collector thread started
+2023-11-27 07:16:21 spawned 2 offload threads for uWSGI worker 1
+2023-11-27 07:16:31 bbc-news
+2023-11-27 07:16:31 announcing my loyalty to the Emperor...
+2023-11-27 07:23:35 the-verge
+2023-11-27 07:35:36 the-verge
+2023-11-27 08:03:33 cnn
+2023-11-27 08:15:12 the-verge
+2023-11-27 10:01:01 cnn
+2023-11-27 10:02:06 cnn
+2023-11-27 15:00:45 cnn
+2023-11-28 03:47:19 *** Starting uWSGI 2.0.20 (64bit) on [Tue Nov 28 03:47:17 2023] ***
+2023-11-28 03:47:19 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-28 03:47:19 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-28 03:47:19 nodename: blue-liveweb9
+2023-11-28 03:47:19 machine: x86_64
+2023-11-28 03:47:19 clock source: unix
+2023-11-28 03:47:19 pcre jit disabled
+2023-11-28 03:47:19 detected number of CPU cores: 4
+2023-11-28 03:47:19 current working directory: /home/imvickykumar999
+2023-11-28 03:47:19 detected binary path: /usr/local/bin/uwsgi
+2023-11-28 03:47:19 *** dumping internal routing table ***
+2023-11-28 03:47:19 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-28 03:47:19 *** end of the internal routing table ***
+2023-11-28 03:47:19 chdir() to /home/imvickykumar999/
+2023-11-28 03:47:19 your processes number limit is 256
+2023-11-28 03:47:19 your memory page size is 4096 bytes
+2023-11-28 03:47:19 detected max file descriptor number: 123456
+2023-11-28 03:47:19 building mime-types dictionary from file /etc/mime.types...
+2023-11-28 03:47:19 567 entry found
+2023-11-28 03:47:19 lock engine: pthread robust mutexes
+2023-11-28 03:47:19 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-28 03:47:19 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-28 03:47:19 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-28 03:47:19 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-28 03:47:19 Python main interpreter initialized at 0x55e664c4fd30
+2023-11-28 03:47:19 your server socket listen backlog is limited to 100 connections
+2023-11-28 03:47:19 your mercy for graceful operations on workers is 60 seconds
+2023-11-28 03:47:19 setting request body buffering size to 65536 bytes
+2023-11-28 03:47:19 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-28 03:47:19 *** Operational MODE: single process ***
+2023-11-28 03:47:19 initialized 38 metrics
+2023-11-28 03:47:19 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55e664c4fd30 pid: 1 (default app)
+2023-11-28 03:47:19 *** uWSGI is running in multiple interpreter mode ***
+2023-11-28 03:47:19 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-28 03:47:19 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-28 03:47:19 metrics collector thread started
+2023-11-28 03:47:19 spawned 2 offload threads for uWSGI worker 1
+2023-11-28 03:47:20 cnn
+2023-11-28 03:47:20 announcing my loyalty to the Emperor...
+2023-11-29 03:57:41 the-wall-street-journal
+2023-11-29 09:44:43 *** Starting uWSGI 2.0.20 (64bit) on [Wed Nov 29 09:44:42 2023] ***
+2023-11-29 09:44:43 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-29 09:44:43 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-29 09:44:43 nodename: blue-liveweb9
+2023-11-29 09:44:43 machine: x86_64
+2023-11-29 09:44:43 clock source: unix
+2023-11-29 09:44:43 pcre jit disabled
+2023-11-29 09:44:43 detected number of CPU cores: 4
+2023-11-29 09:44:43 current working directory: /home/imvickykumar999
+2023-11-29 09:44:43 detected binary path: /usr/local/bin/uwsgi
+2023-11-29 09:44:43 *** dumping internal routing table ***
+2023-11-29 09:44:43 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-29 09:44:43 *** end of the internal routing table ***
+2023-11-29 09:44:43 chdir() to /home/imvickykumar999/
+2023-11-29 09:44:43 your processes number limit is 256
+2023-11-29 09:44:43 your memory page size is 4096 bytes
+2023-11-29 09:44:43 detected max file descriptor number: 123456
+2023-11-29 09:44:43 building mime-types dictionary from file /etc/mime.types...
+2023-11-29 09:44:43 567 entry found
+2023-11-29 09:44:43 lock engine: pthread robust mutexes
+2023-11-29 09:44:43 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-29 09:44:43 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-29 09:44:43 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-29 09:44:43 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-29 09:44:43 Python main interpreter initialized at 0x560d44ddfd30
+2023-11-29 09:44:43 your server socket listen backlog is limited to 100 connections
+2023-11-29 09:44:43 your mercy for graceful operations on workers is 60 seconds
+2023-11-29 09:44:43 setting request body buffering size to 65536 bytes
+2023-11-29 09:44:43 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-29 09:44:43 *** Operational MODE: single process ***
+2023-11-29 09:44:43 initialized 38 metrics
+2023-11-29 09:44:43 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560d44ddfd30 pid: 1 (default app)
+2023-11-29 09:44:43 *** uWSGI is running in multiple interpreter mode ***
+2023-11-29 09:44:43 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-29 09:44:43 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-29 09:44:43 metrics collector thread started
+2023-11-29 09:44:43 spawned 2 offload threads for uWSGI worker 1
+2023-11-29 09:44:45 cnn
+2023-11-29 09:44:45 announcing my loyalty to the Emperor...
+2023-11-29 10:12:01 cnn
+2023-11-29 12:29:37 cnn
+2023-11-29 12:29:38 the-verge
+2023-11-29 12:29:58 the-verge
+2023-11-29 18:14:11 cnn
+2023-11-29 20:53:52 the-verge
+2023-11-29 21:52:49 cnn
+2023-11-29 21:54:54 time
+2023-11-30 03:50:30 cnn
+2023-11-30 03:52:06 time
+2023-11-30 05:43:58 bbc-news
+2023-11-30 05:46:02 the-wall-street-journal
+2023-11-30 10:29:32 *** Starting uWSGI 2.0.20 (64bit) on [Thu Nov 30 10:29:31 2023] ***
+2023-11-30 10:29:32 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-11-30 10:29:32 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-11-30 10:29:32 nodename: blue-liveweb9
+2023-11-30 10:29:32 machine: x86_64
+2023-11-30 10:29:32 clock source: unix
+2023-11-30 10:29:32 pcre jit disabled
+2023-11-30 10:29:32 detected number of CPU cores: 4
+2023-11-30 10:29:32 current working directory: /home/imvickykumar999
+2023-11-30 10:29:32 detected binary path: /usr/local/bin/uwsgi
+2023-11-30 10:29:32 *** dumping internal routing table ***
+2023-11-30 10:29:32 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-11-30 10:29:32 *** end of the internal routing table ***
+2023-11-30 10:29:32 chdir() to /home/imvickykumar999/
+2023-11-30 10:29:32 your processes number limit is 256
+2023-11-30 10:29:32 your memory page size is 4096 bytes
+2023-11-30 10:29:32 detected max file descriptor number: 123456
+2023-11-30 10:29:32 building mime-types dictionary from file /etc/mime.types...
+2023-11-30 10:29:32 567 entry found
+2023-11-30 10:29:32 lock engine: pthread robust mutexes
+2023-11-30 10:29:32 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-11-30 10:29:32 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-11-30 10:29:32 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-11-30 10:29:32 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-11-30 10:29:32 Python main interpreter initialized at 0x55e2ca9cad30
+2023-11-30 10:29:32 your server socket listen backlog is limited to 100 connections
+2023-11-30 10:29:32 your mercy for graceful operations on workers is 60 seconds
+2023-11-30 10:29:32 setting request body buffering size to 65536 bytes
+2023-11-30 10:29:32 mapped 334256 bytes (326 KB) for 1 cores
+2023-11-30 10:29:32 *** Operational MODE: single process ***
+2023-11-30 10:29:32 initialized 38 metrics
+2023-11-30 10:29:32 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e2ca9cad30 pid: 1 (default app)
+2023-11-30 10:29:32 *** uWSGI is running in multiple interpreter mode ***
+2023-11-30 10:29:32 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-11-30 10:29:32 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-11-30 10:29:32 metrics collector thread started
+2023-11-30 10:29:32 spawned 2 offload threads for uWSGI worker 1
+2023-11-30 10:29:34 announcing my loyalty to the Emperor...
+2023-11-30 10:29:35 time
+2023-11-30 21:08:59 the-wall-street-journal
+2023-11-30 21:27:35 bbc-news
+2023-11-30 23:57:37 time
+2023-11-30 23:59:41 bbc-news
+2023-12-01 02:10:27 time
+2023-12-01 02:24:34 cnn
+2023-12-01 06:34:11 the-wall-street-journal
+2023-12-01 06:35:47 time
+2023-12-01 07:42:28 bbc-news
+2023-12-01 08:11:33 Fri Dec  1 08:11:33 2023 - *** /etc/uwsgi/imvickykumar999.pythonanywhere.com.ini has been touched... grace them all !!! ***
+2023-12-01 08:11:33 ...gracefully killing workers...
+2023-12-01 08:11:33 Gracefully killing worker 1 (pid: 2)...
+2023-12-01 08:11:33 Fri Dec  1 08:11:33 2023 - received message 0 from emperor
+2023-12-01 08:11:33 SIGINT/SIGTERM received...killing workers...
+2023-12-01 08:11:34 worker 1 buried after 1 seconds
+2023-12-01 08:11:34 goodbye to uWSGI.
+2023-12-01 08:11:34 VACUUM: unix socket /var/sockets/imvickykumar999.pythonanywhere.com/socket removed.
+2023-12-01 08:11:38 *** Starting uWSGI 2.0.20 (64bit) on [Fri Dec  1 08:11:37 2023] ***
+2023-12-01 08:11:38 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-12-01 08:11:38 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-12-01 08:11:38 nodename: blue-liveweb9
+2023-12-01 08:11:38 machine: x86_64
+2023-12-01 08:11:38 clock source: unix
+2023-12-01 08:11:38 pcre jit disabled
+2023-12-01 08:11:38 detected number of CPU cores: 4
+2023-12-01 08:11:38 current working directory: /home/imvickykumar999
+2023-12-01 08:11:38 detected binary path: /usr/local/bin/uwsgi
+2023-12-01 08:11:38 *** dumping internal routing table ***
+2023-12-01 08:11:38 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-12-01 08:11:38 *** end of the internal routing table ***
+2023-12-01 08:11:38 chdir() to /home/imvickykumar999/
+2023-12-01 08:11:38 your processes number limit is 256
+2023-12-01 08:11:38 your memory page size is 4096 bytes
+2023-12-01 08:11:38 detected max file descriptor number: 123456
+2023-12-01 08:11:38 building mime-types dictionary from file /etc/mime.types...
+2023-12-01 08:11:38 567 entry found
+2023-12-01 08:11:38 lock engine: pthread robust mutexes
+2023-12-01 08:11:38 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-12-01 08:11:38 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-12-01 08:11:38 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-12-01 08:11:38 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-12-01 08:11:38 Python main interpreter initialized at 0x556a4f85ad30
+2023-12-01 08:11:38 your server socket listen backlog is limited to 100 connections
+2023-12-01 08:11:38 your mercy for graceful operations on workers is 60 seconds
+2023-12-01 08:11:38 setting request body buffering size to 65536 bytes
+2023-12-01 08:11:38 mapped 334256 bytes (326 KB) for 1 cores
+2023-12-01 08:11:38 *** Operational MODE: single process ***
+2023-12-01 08:11:38 initialized 38 metrics
+2023-12-01 08:11:38 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556a4f85ad30 pid: 1 (default app)
+2023-12-01 08:11:38 *** uWSGI is running in multiple interpreter mode ***
+2023-12-01 08:11:38 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-12-01 08:11:38 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-12-01 08:11:38 metrics collector thread started
+2023-12-01 08:11:38 spawned 2 offload threads for uWSGI worker 1
+2023-12-01 08:11:46 time
+2023-12-01 08:11:46 announcing my loyalty to the Emperor...
+2023-12-01 08:15:12 time
+2023-12-01 08:16:02 the-verge
+2023-12-01 08:16:02 time
+2023-12-01 08:16:38 the-wall-street-journal
+2023-12-01 08:47:00 time
+2023-12-01 08:49:05 time
+2023-12-01 10:20:38 *** Starting uWSGI 2.0.20 (64bit) on [Fri Dec  1 10:20:37 2023] ***
+2023-12-01 10:20:38 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-12-01 10:20:38 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-12-01 10:20:38 nodename: blue-liveweb9
+2023-12-01 10:20:38 machine: x86_64
+2023-12-01 10:20:38 clock source: unix
+2023-12-01 10:20:38 pcre jit disabled
+2023-12-01 10:20:38 detected number of CPU cores: 4
+2023-12-01 10:20:38 current working directory: /home/imvickykumar999
+2023-12-01 10:20:38 detected binary path: /usr/local/bin/uwsgi
+2023-12-01 10:20:38 *** dumping internal routing table ***
+2023-12-01 10:20:38 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-12-01 10:20:38 *** end of the internal routing table ***
+2023-12-01 10:20:38 chdir() to /home/imvickykumar999/
+2023-12-01 10:20:38 your processes number limit is 256
+2023-12-01 10:20:38 your memory page size is 4096 bytes
+2023-12-01 10:20:38 detected max file descriptor number: 123456
+2023-12-01 10:20:38 building mime-types dictionary from file /etc/mime.types...
+2023-12-01 10:20:38 567 entry found
+2023-12-01 10:20:38 lock engine: pthread robust mutexes
+2023-12-01 10:20:38 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-12-01 10:20:38 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-12-01 10:20:38 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-12-01 10:20:38 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-12-01 10:20:38 Python main interpreter initialized at 0x55b0b7014d30
+2023-12-01 10:20:38 your server socket listen backlog is limited to 100 connections
+2023-12-01 10:20:38 your mercy for graceful operations on workers is 60 seconds
+2023-12-01 10:20:38 setting request body buffering size to 65536 bytes
+2023-12-01 10:20:38 mapped 334256 bytes (326 KB) for 1 cores
+2023-12-01 10:20:38 *** Operational MODE: single process ***
+2023-12-01 10:20:38 initialized 38 metrics
+2023-12-01 10:20:38 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b0b7014d30 pid: 1 (default app)
+2023-12-01 10:20:38 *** uWSGI is running in multiple interpreter mode ***
+2023-12-01 10:20:38 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-12-01 10:20:38 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-12-01 10:20:38 metrics collector thread started
+2023-12-01 10:20:38 spawned 2 offload threads for uWSGI worker 1
+2023-12-01 10:20:39 announcing my loyalty to the Emperor...
+2023-12-01 10:50:51 time
+2023-12-01 10:51:35 the-wall-street-journal
+2023-12-01 10:59:34 the-verge
+2023-12-01 11:06:39 bbc-news
+2023-12-01 11:07:30 bbc-news
+2023-12-01 11:21:00 time
+2023-12-01 13:32:54 the-verge
+2023-12-01 13:35:00 bbc-news
+2023-12-01 14:43:23 the-verge
+2023-12-01 15:53:09 cnn
+2023-12-02 05:42:53 the-verge
+2023-12-02 06:19:44 the-verge
+2023-12-02 06:50:47 cnn
+2023-12-02 13:15:20 the-verge
+2023-12-03 03:20:59 *** Starting uWSGI 2.0.20 (64bit) on [Sun Dec  3 03:20:57 2023] ***
+2023-12-03 03:20:59 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-12-03 03:20:59 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-12-03 03:20:59 nodename: blue-liveweb9
+2023-12-03 03:20:59 machine: x86_64
+2023-12-03 03:20:59 clock source: unix
+2023-12-03 03:20:59 pcre jit disabled
+2023-12-03 03:20:59 detected number of CPU cores: 4
+2023-12-03 03:20:59 current working directory: /home/imvickykumar999
+2023-12-03 03:20:59 detected binary path: /usr/local/bin/uwsgi
+2023-12-03 03:20:59 *** dumping internal routing table ***
+2023-12-03 03:20:59 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-12-03 03:20:59 *** end of the internal routing table ***
+2023-12-03 03:20:59 chdir() to /home/imvickykumar999/
+2023-12-03 03:20:59 your processes number limit is 256
+2023-12-03 03:20:59 your memory page size is 4096 bytes
+2023-12-03 03:20:59 detected max file descriptor number: 123456
+2023-12-03 03:20:59 building mime-types dictionary from file /etc/mime.types...
+2023-12-03 03:20:59 567 entry found
+2023-12-03 03:20:59 lock engine: pthread robust mutexes
+2023-12-03 03:20:59 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-12-03 03:20:59 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-12-03 03:20:59 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-12-03 03:20:59 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-12-03 03:20:59 Python main interpreter initialized at 0x557ee82f3d30
+2023-12-03 03:20:59 your server socket listen backlog is limited to 100 connections
+2023-12-03 03:20:59 your mercy for graceful operations on workers is 60 seconds
+2023-12-03 03:20:59 setting request body buffering size to 65536 bytes
+2023-12-03 03:20:59 mapped 334256 bytes (326 KB) for 1 cores
+2023-12-03 03:20:59 *** Operational MODE: single process ***
+2023-12-03 03:20:59 initialized 38 metrics
+2023-12-03 03:20:59 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557ee82f3d30 pid: 1 (default app)
+2023-12-03 03:20:59 *** uWSGI is running in multiple interpreter mode ***
+2023-12-03 03:20:59 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-12-03 03:20:59 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-12-03 03:20:59 metrics collector thread started
+2023-12-03 03:20:59 spawned 2 offload threads for uWSGI worker 1
+2023-12-03 03:21:00 bbc-news
+2023-12-03 03:21:00 Sun Dec  3 03:21:00 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-03 03:21:00 Sun Dec  3 03:21:00 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-03 03:21:00 announcing my loyalty to the Emperor...
+2023-12-03 03:21:03 the-verge
+2023-12-03 03:21:18 Sun Dec  3 03:21:19 2023 - received message 0 from emperor
+2023-12-03 03:21:18 SIGINT/SIGTERM received...killing workers...
+2023-12-03 03:21:19 worker 1 buried after 1 seconds
+2023-12-03 03:21:19 goodbye to uWSGI.
+2023-12-03 03:21:19 VACUUM: unix socket /var/sockets/imvickykumar999.pythonanywhere.com/socket removed.
+2023-12-03 03:21:23 *** Starting uWSGI 2.0.20 (64bit) on [Sun Dec  3 03:21:23 2023] ***
+2023-12-03 03:21:23 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-12-03 03:21:23 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-12-03 03:21:23 nodename: blue-liveweb9
+2023-12-03 03:21:23 machine: x86_64
+2023-12-03 03:21:23 clock source: unix
+2023-12-03 03:21:23 pcre jit disabled
+2023-12-03 03:21:23 detected number of CPU cores: 4
+2023-12-03 03:21:23 current working directory: /home/imvickykumar999
+2023-12-03 03:21:23 detected binary path: /usr/local/bin/uwsgi
+2023-12-03 03:21:23 *** dumping internal routing table ***
+2023-12-03 03:21:23 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-12-03 03:21:23 *** end of the internal routing table ***
+2023-12-03 03:21:23 chdir() to /home/imvickykumar999/
+2023-12-03 03:21:23 your processes number limit is 256
+2023-12-03 03:21:23 your memory page size is 4096 bytes
+2023-12-03 03:21:23 detected max file descriptor number: 123456
+2023-12-03 03:21:23 building mime-types dictionary from file /etc/mime.types...
+2023-12-03 03:21:23 567 entry found
+2023-12-03 03:21:23 lock engine: pthread robust mutexes
+2023-12-03 03:21:23 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-12-03 03:21:23 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-12-03 03:21:23 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-12-03 03:21:23 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-12-03 03:21:23 Python main interpreter initialized at 0x559c918add30
+2023-12-03 03:21:23 your server socket listen backlog is limited to 100 connections
+2023-12-03 03:21:23 your mercy for graceful operations on workers is 60 seconds
+2023-12-03 03:21:23 setting request body buffering size to 65536 bytes
+2023-12-03 03:21:23 mapped 334256 bytes (326 KB) for 1 cores
+2023-12-03 03:21:23 *** Operational MODE: single process ***
+2023-12-03 03:21:23 initialized 38 metrics
+2023-12-03 03:21:23 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559c918add30 pid: 1 (default app)
+2023-12-03 03:21:23 *** uWSGI is running in multiple interpreter mode ***
+2023-12-03 03:21:23 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-12-03 03:21:23 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-12-03 03:21:23 metrics collector thread started
+2023-12-03 03:21:23 spawned 2 offload threads for uWSGI worker 1
+2023-12-03 03:21:34 the-verge
+2023-12-03 03:21:34 announcing my loyalty to the Emperor...
+2023-12-03 03:52:14 Sun Dec  3 03:52:14 2023 - received message 0 from emperor
+2023-12-03 03:52:14 SIGINT/SIGTERM received...killing workers...
+2023-12-03 03:52:15 worker 1 buried after 1 seconds
+2023-12-03 03:52:15 goodbye to uWSGI.
+2023-12-03 03:52:15 VACUUM: unix socket /var/sockets/imvickykumar999.pythonanywhere.com/socket removed.
+2023-12-03 03:52:18 *** Starting uWSGI 2.0.20 (64bit) on [Sun Dec  3 03:52:18 2023] ***
+2023-12-03 03:52:18 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-12-03 03:52:18 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-12-03 03:52:18 nodename: blue-liveweb9
+2023-12-03 03:52:18 machine: x86_64
+2023-12-03 03:52:18 clock source: unix
+2023-12-03 03:52:18 pcre jit disabled
+2023-12-03 03:52:18 detected number of CPU cores: 4
+2023-12-03 03:52:18 current working directory: /home/imvickykumar999
+2023-12-03 03:52:18 detected binary path: /usr/local/bin/uwsgi
+2023-12-03 03:52:18 *** dumping internal routing table ***
+2023-12-03 03:52:18 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-12-03 03:52:18 *** end of the internal routing table ***
+2023-12-03 03:52:18 chdir() to /home/imvickykumar999/
+2023-12-03 03:52:18 your processes number limit is 256
+2023-12-03 03:52:18 your memory page size is 4096 bytes
+2023-12-03 03:52:18 detected max file descriptor number: 123456
+2023-12-03 03:52:18 building mime-types dictionary from file /etc/mime.types...
+2023-12-03 03:52:18 567 entry found
+2023-12-03 03:52:18 lock engine: pthread robust mutexes
+2023-12-03 03:52:18 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-12-03 03:52:18 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-12-03 03:52:18 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-12-03 03:52:18 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-12-03 03:52:18 Python main interpreter initialized at 0x560edcfaad30
+2023-12-03 03:52:18 your server socket listen backlog is limited to 100 connections
+2023-12-03 03:52:18 your mercy for graceful operations on workers is 60 seconds
+2023-12-03 03:52:18 setting request body buffering size to 65536 bytes
+2023-12-03 03:52:18 mapped 334256 bytes (326 KB) for 1 cores
+2023-12-03 03:52:18 *** Operational MODE: single process ***
+2023-12-03 03:52:18 initialized 38 metrics
+2023-12-03 03:52:18 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x560edcfaad30 pid: 1 (default app)
+2023-12-03 03:52:18 *** uWSGI is running in multiple interpreter mode ***
+2023-12-03 03:52:18 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-12-03 03:52:18 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-12-03 03:52:18 metrics collector thread started
+2023-12-03 03:52:18 spawned 2 offload threads for uWSGI worker 1
+2023-12-03 03:52:25 cnn
+2023-12-03 03:52:25 announcing my loyalty to the Emperor...
+2023-12-03 08:53:24 cnn
+2023-12-04 01:05:17 *** Starting uWSGI 2.0.20 (64bit) on [Mon Dec  4 01:05:16 2023] ***
+2023-12-04 01:05:17 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-12-04 01:05:17 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-12-04 01:05:17 nodename: blue-liveweb9
+2023-12-04 01:05:17 machine: x86_64
+2023-12-04 01:05:17 clock source: unix
+2023-12-04 01:05:17 pcre jit disabled
+2023-12-04 01:05:17 detected number of CPU cores: 4
+2023-12-04 01:05:17 current working directory: /home/imvickykumar999
+2023-12-04 01:05:17 detected binary path: /usr/local/bin/uwsgi
+2023-12-04 01:05:17 *** dumping internal routing table ***
+2023-12-04 01:05:17 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-12-04 01:05:17 *** end of the internal routing table ***
+2023-12-04 01:05:17 chdir() to /home/imvickykumar999/
+2023-12-04 01:05:17 your processes number limit is 256
+2023-12-04 01:05:17 your memory page size is 4096 bytes
+2023-12-04 01:05:17 detected max file descriptor number: 123456
+2023-12-04 01:05:17 building mime-types dictionary from file /etc/mime.types...
+2023-12-04 01:05:17 567 entry found
+2023-12-04 01:05:17 lock engine: pthread robust mutexes
+2023-12-04 01:05:17 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-12-04 01:05:17 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-12-04 01:05:17 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-12-04 01:05:17 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-12-04 01:05:17 Python main interpreter initialized at 0x55a9737e1d30
+2023-12-04 01:05:17 your server socket listen backlog is limited to 100 connections
+2023-12-04 01:05:17 your mercy for graceful operations on workers is 60 seconds
+2023-12-04 01:05:17 setting request body buffering size to 65536 bytes
+2023-12-04 01:05:17 mapped 334256 bytes (326 KB) for 1 cores
+2023-12-04 01:05:17 *** Operational MODE: single process ***
+2023-12-04 01:05:17 initialized 38 metrics
+2023-12-04 01:05:17 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a9737e1d30 pid: 1 (default app)
+2023-12-04 01:05:17 *** uWSGI is running in multiple interpreter mode ***
+2023-12-04 01:05:17 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-12-04 01:05:17 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-12-04 01:05:17 metrics collector thread started
+2023-12-04 01:05:17 spawned 2 offload threads for uWSGI worker 1
+2023-12-04 01:05:18 the-verge
+2023-12-04 01:05:18 announcing my loyalty to the Emperor...
+2023-12-04 12:59:29 bbc-news
+2023-12-05 01:11:02 *** Starting uWSGI 2.0.20 (64bit) on [Tue Dec  5 01:11:01 2023] ***
+2023-12-05 01:11:02 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-12-05 01:11:02 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-12-05 01:11:02 nodename: blue-liveweb9
+2023-12-05 01:11:02 machine: x86_64
+2023-12-05 01:11:02 clock source: unix
+2023-12-05 01:11:02 pcre jit disabled
+2023-12-05 01:11:02 detected number of CPU cores: 4
+2023-12-05 01:11:02 current working directory: /home/imvickykumar999
+2023-12-05 01:11:02 detected binary path: /usr/local/bin/uwsgi
+2023-12-05 01:11:02 *** dumping internal routing table ***
+2023-12-05 01:11:02 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-12-05 01:11:02 *** end of the internal routing table ***
+2023-12-05 01:11:02 chdir() to /home/imvickykumar999/
+2023-12-05 01:11:02 your processes number limit is 256
+2023-12-05 01:11:02 your memory page size is 4096 bytes
+2023-12-05 01:11:02 detected max file descriptor number: 123456
+2023-12-05 01:11:02 building mime-types dictionary from file /etc/mime.types...
+2023-12-05 01:11:02 567 entry found
+2023-12-05 01:11:02 lock engine: pthread robust mutexes
+2023-12-05 01:11:02 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-12-05 01:11:02 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-12-05 01:11:02 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-12-05 01:11:02 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-12-05 01:11:02 Python main interpreter initialized at 0x55b5859dcd30
+2023-12-05 01:11:02 your server socket listen backlog is limited to 100 connections
+2023-12-05 01:11:02 your mercy for graceful operations on workers is 60 seconds
+2023-12-05 01:11:02 setting request body buffering size to 65536 bytes
+2023-12-05 01:11:02 mapped 334256 bytes (326 KB) for 1 cores
+2023-12-05 01:11:02 *** Operational MODE: single process ***
+2023-12-05 01:11:02 initialized 38 metrics
+2023-12-05 01:11:02 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b5859dcd30 pid: 1 (default app)
+2023-12-05 01:11:02 *** uWSGI is running in multiple interpreter mode ***
+2023-12-05 01:11:02 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-12-05 01:11:02 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-12-05 01:11:02 metrics collector thread started
+2023-12-05 01:11:02 spawned 2 offload threads for uWSGI worker 1
+2023-12-05 01:11:03 cnn
+2023-12-05 01:11:03 announcing my loyalty to the Emperor...
+2023-12-05 02:21:17 the-wall-street-journal
+2023-12-05 03:52:12 cnn
+2023-12-05 03:52:38 bbc-news
+2023-12-05 05:25:54 the-wall-street-journal
+2023-12-05 05:26:00 cnn
+2023-12-05 05:29:32 Tue Dec  5 05:29:32 2023 - received message 0 from emperor
+2023-12-05 05:29:32 SIGINT/SIGTERM received...killing workers...
+2023-12-05 05:29:33 worker 1 buried after 1 seconds
+2023-12-05 05:29:33 goodbye to uWSGI.
+2023-12-05 05:29:33 VACUUM: unix socket /var/sockets/imvickykumar999.pythonanywhere.com/socket removed.
+2023-12-05 05:29:38 *** Starting uWSGI 2.0.20 (64bit) on [Tue Dec  5 05:29:36 2023] ***
+2023-12-05 05:29:38 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-12-05 05:29:38 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-12-05 05:29:38 nodename: blue-liveweb9
+2023-12-05 05:29:38 machine: x86_64
+2023-12-05 05:29:38 clock source: unix
+2023-12-05 05:29:38 pcre jit disabled
+2023-12-05 05:29:38 detected number of CPU cores: 4
+2023-12-05 05:29:38 current working directory: /home/imvickykumar999
+2023-12-05 05:29:38 detected binary path: /usr/local/bin/uwsgi
+2023-12-05 05:29:38 *** dumping internal routing table ***
+2023-12-05 05:29:38 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-12-05 05:29:38 *** end of the internal routing table ***
+2023-12-05 05:29:38 chdir() to /home/imvickykumar999/
+2023-12-05 05:29:38 your processes number limit is 256
+2023-12-05 05:29:38 your memory page size is 4096 bytes
+2023-12-05 05:29:38 detected max file descriptor number: 123456
+2023-12-05 05:29:38 building mime-types dictionary from file /etc/mime.types...
+2023-12-05 05:29:38 567 entry found
+2023-12-05 05:29:38 lock engine: pthread robust mutexes
+2023-12-05 05:29:38 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-12-05 05:29:38 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-12-05 05:29:38 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-12-05 05:29:38 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-12-05 05:29:38 Python main interpreter initialized at 0x56535f599d30
+2023-12-05 05:29:38 your server socket listen backlog is limited to 100 connections
+2023-12-05 05:29:38 your mercy for graceful operations on workers is 60 seconds
+2023-12-05 05:29:38 setting request body buffering size to 65536 bytes
+2023-12-05 05:29:38 mapped 334256 bytes (326 KB) for 1 cores
+2023-12-05 05:29:38 *** Operational MODE: single process ***
+2023-12-05 05:29:38 initialized 38 metrics
+2023-12-05 05:29:38 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56535f599d30 pid: 1 (default app)
+2023-12-05 05:29:38 *** uWSGI is running in multiple interpreter mode ***
+2023-12-05 05:29:38 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-12-05 05:29:38 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-12-05 05:29:38 metrics collector thread started
+2023-12-05 05:29:38 spawned 2 offload threads for uWSGI worker 1
+2023-12-05 05:29:42 cnn
+2023-12-05 05:29:42 announcing my loyalty to the Emperor...
+2023-12-05 07:34:09 the-verge
+2023-12-05 08:10:39 time
+2023-12-05 10:57:18 the-verge
+2023-12-05 10:57:38 bbc-news
+2023-12-05 10:57:44 time
+2023-12-05 11:52:57 bbc-news
+2023-12-05 13:16:42 time
+2023-12-05 13:43:17 time
+2023-12-05 15:05:16 bbc-news
+2023-12-05 15:05:48 bbc-news
+2023-12-05 15:13:54 the-wall-street-journal
+2023-12-05 15:53:39 the-verge
+2023-12-05 16:25:59 cnn
+2023-12-06 01:02:16 *** Starting uWSGI 2.0.20 (64bit) on [Wed Dec  6 01:02:15 2023] ***
+2023-12-06 01:02:16 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-12-06 01:02:16 os: Linux-5.15.0-1044-aws #49~20.04.1-Ubuntu SMP Mon Aug 21 17:09:32 UTC 2023
+2023-12-06 01:02:16 nodename: blue-liveweb9
+2023-12-06 01:02:16 machine: x86_64
+2023-12-06 01:02:16 clock source: unix
+2023-12-06 01:02:16 pcre jit disabled
+2023-12-06 01:02:16 detected number of CPU cores: 4
+2023-12-06 01:02:16 current working directory: /home/imvickykumar999
+2023-12-06 01:02:16 detected binary path: /usr/local/bin/uwsgi
+2023-12-06 01:02:16 *** dumping internal routing table ***
+2023-12-06 01:02:16 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-12-06 01:02:16 *** end of the internal routing table ***
+2023-12-06 01:02:16 chdir() to /home/imvickykumar999/
+2023-12-06 01:02:16 your processes number limit is 256
+2023-12-06 01:02:16 your memory page size is 4096 bytes
+2023-12-06 01:02:16 detected max file descriptor number: 123456
+2023-12-06 01:02:16 building mime-types dictionary from file /etc/mime.types...
+2023-12-06 01:02:16 567 entry found
+2023-12-06 01:02:16 lock engine: pthread robust mutexes
+2023-12-06 01:02:16 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-12-06 01:02:16 uwsgi socket 0 bound to UNIX address /var/sockets/imvickykumar999.pythonanywhere.com/socket fd 3
+2023-12-06 01:02:16 Python version: 3.9.13 (main, Jul 22 2022, 17:05:13)  [GCC 9.4.0]
+2023-12-06 01:02:16 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-12-06 01:02:16 Python main interpreter initialized at 0x55c14dc8ad30
+2023-12-06 01:02:16 your server socket listen backlog is limited to 100 connections
+2023-12-06 01:02:16 your mercy for graceful operations on workers is 60 seconds
+2023-12-06 01:02:16 setting request body buffering size to 65536 bytes
+2023-12-06 01:02:16 mapped 334256 bytes (326 KB) for 1 cores
+2023-12-06 01:02:16 *** Operational MODE: single process ***
+2023-12-06 01:02:16 initialized 38 metrics
+2023-12-06 01:02:16 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c14dc8ad30 pid: 1 (default app)
+2023-12-06 01:02:16 *** uWSGI is running in multiple interpreter mode ***
+2023-12-06 01:02:16 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-12-06 01:02:16 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-12-06 01:02:16 metrics collector thread started
+2023-12-06 01:02:16 spawned 2 offload threads for uWSGI worker 1
+2023-12-06 01:02:17 announcing my loyalty to the Emperor...
+2023-12-06 04:03:24 cnn
+2023-12-06 05:44:36 cnn
+2023-12-06 05:51:36 the-wall-street-journal
+2023-12-06 05:51:36 time
+2023-12-06 05:51:37 the-verge
+2023-12-06 05:51:37 time
+2023-12-06 05:51:37 the-verge
+2023-12-06 05:51:37 the-verge
+2023-12-06 05:51:37 time
+2023-12-06 05:51:37 time
+2023-12-06 05:51:40 the-wall-street-journal
+2023-12-06 05:51:45 the-verge
+2023-12-06 05:54:38 the-verge
+2023-12-06 05:55:42 the-verge
+2023-12-06 05:55:43 time
+2023-12-06 05:55:43 bbc-news
+2023-12-06 05:55:43 time
+2023-12-06 05:55:43 cnn
+2023-12-06 05:55:43 the-verge
+2023-12-06 05:55:43 time
+2023-12-06 05:55:43 time
+2023-12-06 05:55:43 cnn
+2023-12-06 05:59:54 the-verge
+2023-12-06 06:02:25 time
+2023-12-06 06:02:25 bbc-news
+2023-12-06 06:02:25 cnn
+2023-12-06 06:02:25 the-wall-street-journal
+2023-12-06 06:02:25 the-verge
+2023-12-06 06:02:25 the-wall-street-journal
+2023-12-06 06:02:25 the-wall-street-journal
+2023-12-06 06:02:26 time
+2023-12-06 06:02:27 time
+2023-12-06 06:05:14 the-wall-street-journal
+2023-12-06 06:06:22 cnn
+2023-12-06 06:06:23 time
+2023-12-06 06:06:23 bbc-news
+2023-12-06 06:06:23 time
+2023-12-06 06:06:23 the-wall-street-journal
+2023-12-06 06:06:23 time
+2023-12-06 06:06:24 time
+2023-12-06 06:06:31 cnn
+2023-12-06 06:06:35 cnn
+2023-12-06 06:07:14 bbc-news
+2023-12-06 06:07:22 the-verge
+2023-12-06 06:07:23 the-wall-street-journal
+2023-12-06 06:07:23 bbc-news
+2023-12-06 06:07:23 time
+2023-12-06 06:07:23 bbc-news
+2023-12-06 06:07:23 the-verge
+2023-12-06 06:07:24 the-verge
+2023-12-06 06:07:24 bbc-news
+2023-12-06 06:07:26 bbc-news
+2023-12-06 06:08:16 the-verge
+2023-12-06 06:11:15 cnn
+2023-12-06 06:35:08 bbc-news
+2023-12-06 06:35:08 the-wall-street-journal
+2023-12-06 06:35:08 the-wall-street-journal
+2023-12-06 06:35:08 time
+2023-12-06 06:35:09 bbc-news
+2023-12-06 06:35:09 the-wall-street-journal
+2023-12-06 06:35:09 the-wall-street-journal
+2023-12-06 06:35:09 the-verge
+2023-12-06 06:35:09 bbc-news
+2023-12-06 06:35:09 the-verge
+2023-12-06 06:35:09 bbc-news
+2023-12-06 06:35:09 the-wall-street-journal
+2023-12-06 06:35:09 time
+2023-12-06 06:35:09 the-wall-street-journal
+2023-12-06 06:35:09 cnn
+2023-12-06 06:35:10 cnn
+2023-12-06 06:35:10 the-wall-street-journal
+2023-12-06 06:35:10 cnn
+2023-12-06 06:35:10 the-verge
+2023-12-06 06:35:10 bbc-news
+2023-12-06 06:35:10 the-verge
+2023-12-06 06:35:10 bbc-news
+2023-12-06 06:35:10 cnn
+2023-12-06 06:35:10 the-wall-street-journal
+2023-12-06 06:35:10 the-wall-street-journal
+2023-12-06 06:35:11 time
+2023-12-06 06:35:11 time
+2023-12-06 06:35:11 bbc-news
+2023-12-06 06:35:11 bbc-news
+2023-12-06 06:35:11 the-verge
+2023-12-06 06:35:12 bbc-news
+2023-12-06 06:35:12 bbc-news
+2023-12-06 06:35:12 bbc-news
+2023-12-06 06:35:12 time
+2023-12-06 06:35:13 the-verge
+2023-12-06 06:35:13 bbc-news
+2023-12-06 06:35:13 time
+2023-12-06 06:35:14 time
+2023-12-06 06:35:14 cnn
+2023-12-06 06:35:14 the-wall-street-journal
+2023-12-06 06:35:14 bbc-news
+2023-12-06 06:35:14 bbc-news
+2023-12-06 06:35:15 the-verge
+2023-12-06 06:35:15 bbc-news
+2023-12-06 06:35:15 the-wall-street-journal
+2023-12-06 06:35:15 cnn
+2023-12-06 06:35:15 cnn
+2023-12-06 06:35:16 the-verge
+2023-12-06 06:35:16 cnn
+2023-12-06 06:35:16 the-verge
+2023-12-06 06:35:16 the-wall-street-journal
+2023-12-06 06:35:16 the-verge
+2023-12-06 06:35:17 cnn
+2023-12-06 06:35:17 the-verge
+2023-12-06 06:35:17 the-verge
+2023-12-06 06:35:17 the-verge
+2023-12-06 06:35:17 time
+2023-12-06 06:35:18 the-wall-street-journal
+2023-12-06 06:35:18 the-wall-street-journal
+2023-12-06 06:35:18 time
+2023-12-06 06:35:18 time
+2023-12-06 06:35:18 the-verge
+2023-12-06 06:35:18 the-verge
+2023-12-06 06:35:19 the-wall-street-journal
+2023-12-06 06:35:19 cnn
+2023-12-06 06:35:19 Wed Dec  6 06:35:19 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:19 Wed Dec  6 06:35:19 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:19 bbc-news
+2023-12-06 06:35:19 Wed Dec  6 06:35:19 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:19 Wed Dec  6 06:35:19 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:19 cnn
+2023-12-06 06:35:19 Wed Dec  6 06:35:19 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:19 Wed Dec  6 06:35:19 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:19 the-wall-street-journal
+2023-12-06 06:35:20 Wed Dec  6 06:35:20 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:20 Wed Dec  6 06:35:20 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:20 the-wall-street-journal
+2023-12-06 06:35:20 Wed Dec  6 06:35:20 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:20 Wed Dec  6 06:35:20 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:20 the-verge
+2023-12-06 06:35:20 Wed Dec  6 06:35:20 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:20 Wed Dec  6 06:35:20 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:20 the-verge
+2023-12-06 06:35:20 Wed Dec  6 06:35:20 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:20 Wed Dec  6 06:35:20 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:20 the-wall-street-journal
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:21 the-wall-street-journal
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:21 bbc-news
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:21 the-wall-street-journal
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:21 time
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:21 Wed Dec  6 06:35:21 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:21 time
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:22 bbc-news
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:22 cnn
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:22 the-wall-street-journal
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:22 bbc-news
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:22 Wed Dec  6 06:35:22 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:22 cnn
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:23 the-wall-street-journal
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:23 cnn
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:23 time
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:23 cnn
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:23 Wed Dec  6 06:35:23 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:23 the-verge
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:24 the-verge
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:24 the-verge
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:24 time
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:24 the-verge
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:24 time
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:24 Wed Dec  6 06:35:24 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:24 bbc-news
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:25 time
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:25 cnn
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:25 cnn
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:25 time
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:25 the-verge
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:25 Wed Dec  6 06:35:25 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:25 cnn
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:26 bbc-news
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:26 the-wall-street-journal
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:26 cnn
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:26 time
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:26 Wed Dec  6 06:35:26 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:26 the-wall-street-journal
+2023-12-06 06:35:27 Wed Dec  6 06:35:27 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:27 Wed Dec  6 06:35:27 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:27 the-wall-street-journal
+2023-12-06 06:35:27 Wed Dec  6 06:35:27 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:27 Wed Dec  6 06:35:27 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:27 the-verge
+2023-12-06 06:35:27 Wed Dec  6 06:35:27 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:27 Wed Dec  6 06:35:27 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:27 the-verge
+2023-12-06 06:35:27 Wed Dec  6 06:35:27 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:27 Wed Dec  6 06:35:27 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:27 the-wall-street-journal
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:28 time
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:28 the-verge
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:28 the-verge
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:28 bbc-news
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:28 the-verge
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:28 Wed Dec  6 06:35:28 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:28 the-wall-street-journal
+2023-12-06 06:35:29 Wed Dec  6 06:35:29 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:29 Wed Dec  6 06:35:29 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:29 the-verge
+2023-12-06 06:35:29 Wed Dec  6 06:35:29 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:29 Wed Dec  6 06:35:29 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:29 cnn
+2023-12-06 06:35:29 Wed Dec  6 06:35:29 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:29 Wed Dec  6 06:35:29 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:29 bbc-news
+2023-12-06 06:35:30 Wed Dec  6 06:35:30 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:30 Wed Dec  6 06:35:30 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:30 time
+2023-12-06 06:35:30 Wed Dec  6 06:35:30 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:30 Wed Dec  6 06:35:30 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:30 bbc-news
+2023-12-06 06:35:30 Wed Dec  6 06:35:30 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:30 Wed Dec  6 06:35:30 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:30 time
+2023-12-06 06:35:30 Wed Dec  6 06:35:30 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:30 Wed Dec  6 06:35:30 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:30 time
+2023-12-06 06:35:31 Wed Dec  6 06:35:31 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:31 Wed Dec  6 06:35:31 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:31 the-verge
+2023-12-06 06:35:31 Wed Dec  6 06:35:31 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:31 Wed Dec  6 06:35:31 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:31 the-verge
+2023-12-06 06:35:31 Wed Dec  6 06:35:31 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:31 Wed Dec  6 06:35:31 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:31 bbc-news
+2023-12-06 06:35:32 Wed Dec  6 06:35:32 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:32 Wed Dec  6 06:35:32 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:32 cnn
+2023-12-06 06:35:32 Wed Dec  6 06:35:32 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:32 Wed Dec  6 06:35:32 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:32 bbc-news
+2023-12-06 06:35:32 Wed Dec  6 06:35:32 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:32 Wed Dec  6 06:35:32 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:32 cnn
+2023-12-06 06:35:32 Wed Dec  6 06:35:32 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:32 Wed Dec  6 06:35:32 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:32 bbc-news
+2023-12-06 06:35:33 Wed Dec  6 06:35:33 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:33 Wed Dec  6 06:35:33 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:33 the-wall-street-journal
+2023-12-06 06:35:33 Wed Dec  6 06:35:33 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:33 Wed Dec  6 06:35:33 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:33 the-verge
+2023-12-06 06:35:33 Wed Dec  6 06:35:33 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:33 Wed Dec  6 06:35:33 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:33 the-verge
+2023-12-06 06:35:33 Wed Dec  6 06:35:33 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:33 Wed Dec  6 06:35:33 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:33 the-wall-street-journal
+2023-12-06 06:35:34 Wed Dec  6 06:35:34 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:34 Wed Dec  6 06:35:34 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:34 the-verge
+2023-12-06 06:35:34 Wed Dec  6 06:35:34 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:34 Wed Dec  6 06:35:34 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:34 bbc-news
+2023-12-06 06:35:34 Wed Dec  6 06:35:34 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:34 Wed Dec  6 06:35:34 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:34 bbc-news
+2023-12-06 06:35:34 Wed Dec  6 06:35:34 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:34 Wed Dec  6 06:35:34 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:34 bbc-news
+2023-12-06 06:35:35 Wed Dec  6 06:35:35 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:35 Wed Dec  6 06:35:35 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:35 time
+2023-12-06 06:35:35 Wed Dec  6 06:35:35 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:35 Wed Dec  6 06:35:35 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:35 the-wall-street-journal
+2023-12-06 06:35:35 Wed Dec  6 06:35:35 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:35 Wed Dec  6 06:35:35 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:35 the-wall-street-journal
+2023-12-06 06:35:36 Wed Dec  6 06:35:36 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:36 Wed Dec  6 06:35:36 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:36 bbc-news
+2023-12-06 06:35:36 Wed Dec  6 06:35:36 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:36 Wed Dec  6 06:35:36 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:36 the-wall-street-journal
+2023-12-06 06:35:36 Wed Dec  6 06:35:36 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:36 Wed Dec  6 06:35:36 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:36 time
+2023-12-06 06:35:36 Wed Dec  6 06:35:36 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:36 Wed Dec  6 06:35:36 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:36 the-verge
+2023-12-06 06:35:37 Wed Dec  6 06:35:37 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:37 Wed Dec  6 06:35:37 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:37 the-wall-street-journal
+2023-12-06 06:35:37 Wed Dec  6 06:35:37 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:37 Wed Dec  6 06:35:37 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:37 the-wall-street-journal
+2023-12-06 06:35:37 Wed Dec  6 06:35:37 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:37 Wed Dec  6 06:35:37 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:37 cnn
+2023-12-06 06:35:37 Wed Dec  6 06:35:37 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:37 Wed Dec  6 06:35:37 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:37 the-wall-street-journal
+2023-12-06 06:35:38 Wed Dec  6 06:35:38 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:38 Wed Dec  6 06:35:38 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:38 the-verge
+2023-12-06 06:35:38 Wed Dec  6 06:35:38 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:38 Wed Dec  6 06:35:38 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:38 the-verge
+2023-12-06 06:35:38 Wed Dec  6 06:35:38 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:38 Wed Dec  6 06:35:38 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:38 cnn
+2023-12-06 06:35:38 Wed Dec  6 06:35:38 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:38 Wed Dec  6 06:35:38 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:38 the-verge
+2023-12-06 06:35:39 Wed Dec  6 06:35:39 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:39 Wed Dec  6 06:35:39 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:39 time
+2023-12-06 06:35:39 Wed Dec  6 06:35:39 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:39 Wed Dec  6 06:35:39 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:39 bbc-news
+2023-12-06 06:35:39 Wed Dec  6 06:35:39 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:39 Wed Dec  6 06:35:39 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:39 time
+2023-12-06 06:35:40 Wed Dec  6 06:35:40 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:40 Wed Dec  6 06:35:40 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:40 bbc-news
+2023-12-06 06:35:40 Wed Dec  6 06:35:40 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:40 Wed Dec  6 06:35:40 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:40 bbc-news
+2023-12-06 06:35:40 Wed Dec  6 06:35:40 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:40 Wed Dec  6 06:35:40 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:40 the-verge
+2023-12-06 06:35:40 Wed Dec  6 06:35:40 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:40 Wed Dec  6 06:35:40 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:40 bbc-news
+2023-12-06 06:35:41 Wed Dec  6 06:35:41 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:41 Wed Dec  6 06:35:41 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:41 the-wall-street-journal
+2023-12-06 06:35:41 Wed Dec  6 06:35:41 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:41 Wed Dec  6 06:35:41 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:41 cnn
+2023-12-06 06:35:41 Wed Dec  6 06:35:41 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:41 Wed Dec  6 06:35:41 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:41 bbc-news
+2023-12-06 06:35:41 Wed Dec  6 06:35:41 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:41 Wed Dec  6 06:35:41 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:41 bbc-news
+2023-12-06 06:35:42 Wed Dec  6 06:35:42 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:42 Wed Dec  6 06:35:42 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:42 the-wall-street-journal
+2023-12-06 06:35:42 Wed Dec  6 06:35:42 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:42 Wed Dec  6 06:35:42 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:42 the-wall-street-journal
+2023-12-06 06:35:42 Wed Dec  6 06:35:42 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:42 Wed Dec  6 06:35:42 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:42 the-verge
+2023-12-06 06:35:42 Wed Dec  6 06:35:42 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:42 Wed Dec  6 06:35:42 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:42 the-verge
+2023-12-06 06:35:43 Wed Dec  6 06:35:43 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:43 Wed Dec  6 06:35:43 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:43 bbc-news
+2023-12-06 06:35:43 Wed Dec  6 06:35:43 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:43 Wed Dec  6 06:35:43 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:43 bbc-news
+2023-12-06 06:35:43 Wed Dec  6 06:35:43 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:43 Wed Dec  6 06:35:43 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:43 time
+2023-12-06 06:35:44 Wed Dec  6 06:35:44 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:44 Wed Dec  6 06:35:44 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:44 the-wall-street-journal
+2023-12-06 06:35:44 Wed Dec  6 06:35:44 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:44 Wed Dec  6 06:35:44 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:44 the-verge
+2023-12-06 06:35:44 Wed Dec  6 06:35:44 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:44 Wed Dec  6 06:35:44 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:44 the-wall-street-journal
+2023-12-06 06:35:44 Wed Dec  6 06:35:44 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:44 Wed Dec  6 06:35:44 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:44 the-verge
+2023-12-06 06:35:45 the-verge
+2023-12-06 06:35:45 Wed Dec  6 06:35:45 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:45 Wed Dec  6 06:35:45 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:45 the-wall-street-journal
+2023-12-06 06:35:45 Wed Dec  6 06:35:45 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:45 Wed Dec  6 06:35:45 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:45 time
+2023-12-06 06:35:45 Wed Dec  6 06:35:45 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:45 Wed Dec  6 06:35:45 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:45 cnn
+2023-12-06 06:35:46 Wed Dec  6 06:35:46 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:46 Wed Dec  6 06:35:46 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:46 the-wall-street-journal
+2023-12-06 06:35:46 Wed Dec  6 06:35:46 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:46 Wed Dec  6 06:35:46 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:46 time
+2023-12-06 06:35:46 Wed Dec  6 06:35:46 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:46 Wed Dec  6 06:35:46 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:46 bbc-news
+2023-12-06 06:35:46 Wed Dec  6 06:35:46 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:46 Wed Dec  6 06:35:46 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:46 the-verge
+2023-12-06 06:35:47 Wed Dec  6 06:35:47 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:47 Wed Dec  6 06:35:47 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:47 the-wall-street-journal
+2023-12-06 06:35:47 Wed Dec  6 06:35:47 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:47 Wed Dec  6 06:35:47 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:47 time
+2023-12-06 06:35:47 Wed Dec  6 06:35:47 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:47 Wed Dec  6 06:35:47 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:47 cnn
+2023-12-06 06:35:48 Wed Dec  6 06:35:48 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:48 Wed Dec  6 06:35:48 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:48 the-wall-street-journal
+2023-12-06 06:35:48 Wed Dec  6 06:35:48 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:48 Wed Dec  6 06:35:48 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:48 the-verge
+2023-12-06 06:35:48 Wed Dec  6 06:35:48 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:48 Wed Dec  6 06:35:48 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:48 the-verge
+2023-12-06 06:35:48 Wed Dec  6 06:35:48 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:48 Wed Dec  6 06:35:48 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:48 time
+2023-12-06 06:35:49 Wed Dec  6 06:35:49 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:49 Wed Dec  6 06:35:49 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:49 the-wall-street-journal
+2023-12-06 06:35:49 Wed Dec  6 06:35:49 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:49 Wed Dec  6 06:35:49 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:49 time
+2023-12-06 06:35:49 Wed Dec  6 06:35:49 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:49 Wed Dec  6 06:35:49 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:49 cnn
+2023-12-06 06:35:49 Wed Dec  6 06:35:49 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:49 Wed Dec  6 06:35:49 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:49 time
+2023-12-06 06:35:50 Wed Dec  6 06:35:50 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:50 Wed Dec  6 06:35:50 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:50 the-wall-street-journal
+2023-12-06 06:35:50 Wed Dec  6 06:35:50 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:50 Wed Dec  6 06:35:50 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:50 the-verge
+2023-12-06 06:35:50 Wed Dec  6 06:35:50 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:50 Wed Dec  6 06:35:50 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:50 cnn
+2023-12-06 06:35:51 Wed Dec  6 06:35:51 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:51 Wed Dec  6 06:35:51 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:51 the-verge
+2023-12-06 06:35:51 Wed Dec  6 06:35:51 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:51 Wed Dec  6 06:35:51 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:51 time
+2023-12-06 06:35:51 Wed Dec  6 06:35:51 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:51 Wed Dec  6 06:35:51 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:51 the-verge
+2023-12-06 06:35:51 Wed Dec  6 06:35:51 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:51 Wed Dec  6 06:35:51 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:51 cnn
+2023-12-06 06:35:52 Wed Dec  6 06:35:52 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:52 Wed Dec  6 06:35:52 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:52 the-verge
+2023-12-06 06:35:52 Wed Dec  6 06:35:52 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:52 Wed Dec  6 06:35:52 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:52 the-verge
+2023-12-06 06:35:52 Wed Dec  6 06:35:52 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:52 Wed Dec  6 06:35:52 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:52 cnn
+2023-12-06 06:35:52 Wed Dec  6 06:35:52 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:52 Wed Dec  6 06:35:52 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:52 time
+2023-12-06 06:35:53 Wed Dec  6 06:35:53 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:53 Wed Dec  6 06:35:53 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:53 time
+2023-12-06 06:35:53 Wed Dec  6 06:35:53 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:53 Wed Dec  6 06:35:53 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:53 the-wall-street-journal
+2023-12-06 06:35:53 Wed Dec  6 06:35:53 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:53 Wed Dec  6 06:35:53 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:53 bbc-news
+2023-12-06 06:35:54 Wed Dec  6 06:35:54 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:54 Wed Dec  6 06:35:54 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:54 time
+2023-12-06 06:35:54 Wed Dec  6 06:35:54 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:54 Wed Dec  6 06:35:54 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:54 the-wall-street-journal
+2023-12-06 06:35:54 Wed Dec  6 06:35:54 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:54 Wed Dec  6 06:35:54 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:54 the-verge
+2023-12-06 06:35:54 Wed Dec  6 06:35:54 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:54 Wed Dec  6 06:35:54 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:54 the-verge
+2023-12-06 06:35:55 Wed Dec  6 06:35:55 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:55 Wed Dec  6 06:35:55 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:55 cnn
+2023-12-06 06:35:55 Wed Dec  6 06:35:55 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:55 Wed Dec  6 06:35:55 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:55 bbc-news
+2023-12-06 06:35:55 Wed Dec  6 06:35:55 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:55 Wed Dec  6 06:35:55 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:55 the-verge
+2023-12-06 06:35:55 Wed Dec  6 06:35:55 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:55 Wed Dec  6 06:35:55 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:55 the-verge
+2023-12-06 06:35:56 Wed Dec  6 06:35:56 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.0.0.75) !!!
+2023-12-06 06:35:56 Wed Dec  6 06:35:56 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (10.0.0.75)
+2023-12-06 06:35:56 time
+2023-12-06 06:35:56 cnn
+2023-12-06 06:35:56 bbc-news
+2023-12-06 06:35:57 cnn
+2023-12-06 06:35:58 time
+2023-12-06 06:35:59 time
+2023-12-06 06:36:08 time
+2023-12-06 06:36:15 time
+2023-12-06 06:36:24 the-wall-street-journal
+2023-12-06 06:36:25 cnn
+2023-12-06 06:36:26 time
+2023-12-06 06:36:35 the-wall-street-journal
+2023-12-06 06:36:44 the-wall-street-journal
+2023-12-06 06:37:10 time
+2023-12-06 06:37:14 time
+2023-12-06 06:37:45 time
+2023-12-06 06:38:09 the-verge
+2023-12-06 06:38:20 time
+2023-12-06 06:39:30 bbc-news
+2023-12-06 06:40:04 time
+2023-12-06 06:40:20 the-wall-street-journal
+2023-12-06 06:40:44 the-verge
+2023-12-06 06:40:54 cnn
+2023-12-06 06:41:11 time
+2023-12-06 06:41:25 the-wall-street-journal
+2023-12-06 06:41:40 cnn
+2023-12-06 06:41:45 bbc-news
+2023-12-06 06:41:50 cnn
+2023-12-06 06:42:06 bbc-news
+2023-12-06 06:42:19 the-wall-street-journal
+2023-12-06 06:42:22 bbc-news
+2023-12-06 06:43:06 time
+2023-12-06 06:44:00 bbc-news
+2023-12-06 06:45:09 the-wall-street-journal
+2023-12-06 06:57:16 the-verge
+2023-12-06 07:10:44 the-verge
+2023-12-06 07:31:00 time
+2023-12-06 07:31:54 cnn
+2023-12-06 07:34:13 bbc-news
+2023-12-06 08:50:14 the-verge
+2023-12-06 08:54:29 the-verge
+2023-12-06 09:07:21 bbc-news
